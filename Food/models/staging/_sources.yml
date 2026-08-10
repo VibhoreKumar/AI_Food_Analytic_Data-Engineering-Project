@@ -1,0 +1,26 @@
+sources:
+  - name: raw
+    database: ZOMATO
+    schema: RAW
+    tables:
+      - name: restaurants
+        description: "This table contains information about restaurants, including their names, locations, cuisines, and ratings."
+      - name: users
+        description: "This table contains information about users, including their names, email addresses."
+      - name: food
+        description: "This table contains information about food items, including their names, descriptions, and prices."
+      - name: menu
+        description: "This table contains information about menus, including the items available at each restaurant."
+      - name: orders
+        description: "This table contains information about orders, including the items ordered, the total price."
+      - name: order_items
+        description: "This table contains information about the individual items in each order, including the quantity."
+      - name: reviews
+        description: "This table contains information about reviews, including the ratings and comments."
+
+  - name: ai
+    database: ZOMATO
+    schema: AI
+    tables:
+      - name: review_enriched
+        description: "AI-enriched review data with sentiment scores, topics, and flagged issues, populated by an external enrichment pipeline."

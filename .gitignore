@@ -1,0 +1,39 @@
+# Secrets & credentials — NEVER commit these
+.env
+*.env
+env
+creds/
+.streamlit/secrets.toml
+profiles.yml
+
+# dbt
+zomato/target/
+zomato/dbt_packages/
+zomato/logs/
+zomato/.user.yml
+
+# Airflow
+airflow/logs/
+airflow/dags/__pycache__/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Data files (large, not needed in git)
+data/
+
+# Streamlit
+streamlit_app/.streamlit/secrets.toml
+
+# Editor/IDE
+.vscode/
+.idea/
+data/
