@@ -7,7 +7,7 @@ st.set_page_config(page_title="Zomato Analytics", layout="wide")
 
 @st.cache_resource
 def get_connection():
-    return snowflake.connector.connect(
+    conn = snowflake.connector.connect(
         account=st.secrets["snowflake"]["account"],
         user=st.secrets["snowflake"]["user"],
         password=st.secrets["snowflake"]["password"],
@@ -16,11 +16,16 @@ def get_connection():
         schema=st.secrets["snowflake"]["schema"],
         role=st.secrets["snowflake"]["role"],
     )
+    print("Snowflake connection established", flush=True)
+    return conn
 
-@st.cache_data(ttl=600)
+@st.cache_data(ttl=3600)
 def run_query(query):
     conn = get_connection()
-    return pd.read_sql(query, conn)
+    print(f"▶️ Running query: {query}", flush=True)
+    df = pd.read_sql(query, conn)
+    print(f" Query returned {len(df)} rows", flush=True)
+    return df
 
 st.title("🍽️ Food-Delivery Analytics Dashboard")
 
