@@ -16,24 +16,43 @@ DEFAULTS = {
 }
 
 
+def get_secret(name: str) -> Optional[str]:
+    value = os.getenv(name)
+    if value:
+        return value
+
+    if st.secrets is not None:
+        value = st.secrets.get(name)
+        if value:
+            return value
+        value = st.secrets.get(name.lower())
+        if value:
+            return value
+        snowflake_section = st.secrets.get("snowflake") or st.secrets.get("SNOWFLAKE")
+        if isinstance(snowflake_section, dict):
+            return snowflake_section.get(name) or snowflake_section.get(name.lower())
+
+    return None
+
+
 @st.cache_resource
 def get_connection():
     snowflake_config = {
-        "user": os.getenv("SNOWFLAKE_USER"),
-        "password": os.getenv("SNOWFLAKE_PASSWORD"),
-        "account": os.getenv("SNOWFLAKE_ACCOUNT"),
-        "warehouse": os.getenv("SNOWFLAKE_WAREHOUSE", DEFAULTS["warehouse"]),
-        "database": os.getenv("SNOWFLAKE_DATABASE", DEFAULTS["database"]),
-        "schema": os.getenv("SNOWFLAKE_SCHEMA", DEFAULTS["schema"]),
+        "user": get_secret("SNOWFLAKE_USER"),
+        "password": get_secret("SNOWFLAKE_PASSWORD"),
+        "account": get_secret("SNOWFLAKE_ACCOUNT"),
+        "warehouse": get_secret("SNOWFLAKE_WAREHOUSE") or DEFAULTS["warehouse"],
+        "database": get_secret("SNOWFLAKE_DATABASE") or DEFAULTS["database"],
+        "schema": get_secret("SNOWFLAKE_SCHEMA") or DEFAULTS["schema"],
     }
-    role = os.getenv("SNOWFLAKE_ROLE")
+    role = get_secret("SNOWFLAKE_ROLE")
     if role:
         snowflake_config["role"] = role
 
     missing = [k for k, v in snowflake_config.items() if k in ["user", "password", "account"] and not v]
     if missing:
         raise RuntimeError(
-            f"Missing required Snowflake environment variables: {', '.join(missing)}"
+            f"Missing required Snowflake credentials. Set environment variables or Streamlit secrets for: {', '.join(missing)}"
         )
 
     return snowflake.connector.connect(**snowflake_config)
