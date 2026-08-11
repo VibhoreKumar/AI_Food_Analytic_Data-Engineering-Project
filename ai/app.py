@@ -1,58 +1,29 @@
+# Food Delivery Analytics Dashboard querying Zomato review data from Snowflake
+# Co-authored with CoCo
 import os
-from pathlib import Path
 
+import altair as alt
 import pandas as pd
-import plotly.express as px
-import snowflake.connector
 import streamlit as st
-from dotenv import load_dotenv
 
-BASE_DIR = Path(__file__).resolve().parent
-load_dotenv(BASE_DIR / ".env")
+st.set_page_config(page_title="Food Delivery Analytic Dashboard", page_icon="\U0001f37d\ufe0f", layout="wide")
 
-
-def get_connection():
-    config = {
-        "user": os.getenv("SNOWFLAKE_USER"),
-        "password": os.getenv("SNOWFLAKE_PASSWORD"),
-        "account": os.getenv("SNOWFLAKE_ACCOUNT"),
-        "warehouse": os.getenv("SNOWFLAKE_WAREHOUSE", "ZOMATO_WH"),
-        "database": os.getenv("SNOWFLAKE_DATABASE", "ZOMATO"),
-        "schema": os.getenv("SNOWFLAKE_SCHEMA", "RAW"),
-    }
-
-    missing = [k for k in ["user", "password", "account"] if not config[k]]
-    if missing:
-        raise RuntimeError(
-            f"Missing required Snowflake environment variables: {', '.join(missing)}. "
-            "Check ai/.env or set them in your shell before running."
-        )
-
-    return snowflake.connector.connect(**config)
+conn = st.connection("snowflake", ttl=os.getenv("SNOWFLAKE_CONNECTION_TTL"))
 
 
 @st.cache_data(ttl=60)
 def run_query(query: str) -> pd.DataFrame:
-    conn = get_connection()
-    cursor = conn.cursor()
-    try:
-        cursor.execute(query)
-        columns = [col[0] for col in cursor.description] if cursor.description else []
-        rows = cursor.fetchall()
-        df = pd.DataFrame(rows, columns=columns)
-        df.columns = df.columns.str.lower()
-        return df
-    finally:
-        cursor.close()
-        conn.close()
+    df = conn.query(query)
+    df.columns = df.columns.str.lower()
+    return df
 
 
 def render_metrics(total: int, enriched: int) -> None:
     coverage = f"{round((enriched / total * 100), 1)}%" if total else "N/A"
     col1, col2, col3 = st.columns(3)
-    col1.metric("Total Raw Reviews", total, delta=None, delta_color="normal")
-    col2.metric("Enriched Reviews", enriched, delta=None, delta_color="normal")
-    col3.metric("Coverage", coverage, delta=None, delta_color="normal")
+    col1.metric("Total Raw Reviews", total)
+    col2.metric("Enriched Reviews", enriched)
+    col3.metric("Coverage", coverage)
 
 
 def render_sentiment_chart(sentiment: pd.DataFrame) -> None:
@@ -61,18 +32,16 @@ def render_sentiment_chart(sentiment: pd.DataFrame) -> None:
         st.info("No sentiment data available yet.")
         return
 
-    fig = px.pie(
-        sentiment,
-        names="sentiment_label",
-        values="count",
-        color="sentiment_label",
-        color_discrete_map={"positive": "#2ecc71", "neutral": "#f1c40f", "negative": "#e74c3c"},
-        hole=0.42,
-        title="Review sentiment breakdown",
+    color_map = alt.Scale(
+        domain=["positive", "neutral", "negative"],
+        range=["#2ecc71", "#f1c40f", "#e74c3c"],
     )
-    fig.update_traces(textinfo="percent+label", textfont_size=14)
-    fig.update_layout(margin=dict(t=40, b=0, l=0, r=0), legend_title_text=None)
-    st.plotly_chart(fig, use_container_width=True)
+    chart = alt.Chart(sentiment).mark_arc(innerRadius=50).encode(
+        theta=alt.Theta("count:Q"),
+        color=alt.Color("sentiment_label:N", scale=color_map, title="Sentiment"),
+        tooltip=["sentiment_label", "count"],
+    ).properties(height=300, title="Review sentiment breakdown")
+    st.altair_chart(chart, use_container_width=True)
 
 
 def render_topic_chart(topic: pd.DataFrame) -> None:
@@ -81,18 +50,13 @@ def render_topic_chart(topic: pd.DataFrame) -> None:
         st.info("No topic data available yet.")
         return
 
-    fig = px.bar(
-        topic,
-        x="topic",
-        y="count",
-        color="topic",
-        text="count",
-        color_discrete_sequence=px.colors.qualitative.Vivid,
-        title="Most discussed topics",
-    )
-    fig.update_traces(textposition="outside")
-    fig.update_layout(xaxis_title=None, yaxis_title="Review count", plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)", margin=dict(t=40, b=40, l=0, r=0), showlegend=False)
-    st.plotly_chart(fig, use_container_width=True)
+    chart = alt.Chart(topic).mark_bar().encode(
+        x=alt.X("topic:N", sort="-y", title=None),
+        y=alt.Y("count:Q", title="Review count"),
+        color=alt.Color("topic:N", legend=None),
+        tooltip=["topic", "count"],
+    ).properties(height=300, title="Most discussed topics")
+    st.altair_chart(chart, use_container_width=True)
 
 
 def render_trend_chart(trend: pd.DataFrame) -> None:
@@ -102,17 +66,17 @@ def render_trend_chart(trend: pd.DataFrame) -> None:
         return
 
     trend["day"] = pd.to_datetime(trend["day"]).dt.date
-    fig = px.line(
-        trend,
-        x="day",
-        y="count",
-        color="sentiment_label",
-        markers=True,
-        title="Daily sentiment volume",
-        color_discrete_map={"positive": "#2ecc71", "neutral": "#f1c40f", "negative": "#e74c3c"},
+    color_map = alt.Scale(
+        domain=["positive", "neutral", "negative"],
+        range=["#2ecc71", "#f1c40f", "#e74c3c"],
     )
-    fig.update_layout(xaxis_title="Date", yaxis_title="Review count", plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)", margin=dict(t=40, b=40, l=0, r=0))
-    st.plotly_chart(fig, use_container_width=True)
+    chart = alt.Chart(trend).mark_line(point=True).encode(
+        x=alt.X("day:T", title="Date"),
+        y=alt.Y("count:Q", title="Review count"),
+        color=alt.Color("sentiment_label:N", scale=color_map, title="Sentiment"),
+        tooltip=["day", "sentiment_label", "count"],
+    ).properties(height=300, title="Daily sentiment volume")
+    st.altair_chart(chart, use_container_width=True)
 
 
 def render_latest_reviews(latest: pd.DataFrame) -> None:
@@ -135,27 +99,20 @@ def render_latest_reviews(latest: pd.DataFrame) -> None:
 
 
 def main():
-    st.set_page_config(page_title="Food Delivery Analytic Dashboard", page_icon="🍽️", layout="wide")
-    st.markdown(
-        "<style>"
-        "div.block-container{padding-top:1rem;}"
-        "</style>",
-        unsafe_allow_html=True,
-    )
-
     st.title("Food Delivery Analytic Dashboard")
     st.write(
-        "This dashboard visualizes AI-enriched customer review data, combining sentiment classification, topic extraction, and issue flagging to help identify patterns in customer feedback — such as which topics drive negative sentiment, and which issues appear most frequently across restaurants or cities."
+        "This dashboard visualizes AI-enriched customer review data, combining sentiment "
+        "classification, topic extraction, and issue flagging to help identify patterns in "
+        "customer feedback."
     )
 
     with st.sidebar:
         st.header("Dashboard settings")
         row_limit = st.slider("Latest review rows", 5, 50, 20)
         st.markdown("---")
-        st.caption("Make sure Snowflake credentials are configured in ai/.env before running.")
         if st.button("Refresh data"):
             st.cache_data.clear()
-            st.experimental_rerun()
+            st.rerun()
 
     try:
         total_reviews = run_query("SELECT COUNT(*) AS total_reviews FROM ZOMATO.RAW.REVIEWS")
