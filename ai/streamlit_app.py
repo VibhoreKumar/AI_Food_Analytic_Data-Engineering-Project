@@ -25,12 +25,24 @@ def get_secret(name: str) -> Optional[str]:
         value = st.secrets.get(name)
         if value:
             return value
+
         value = st.secrets.get(name.lower())
         if value:
             return value
+
         snowflake_section = st.secrets.get("snowflake") or st.secrets.get("SNOWFLAKE")
         if isinstance(snowflake_section, dict):
-            return snowflake_section.get(name) or snowflake_section.get(name.lower())
+            value = snowflake_section.get(name)
+            if value:
+                return value
+            value = snowflake_section.get(name.lower())
+            if value:
+                return value
+            if name.startswith("SNOWFLAKE_"):
+                simple_key = name.split("_", 1)[1].lower()
+                value = snowflake_section.get(simple_key)
+                if value:
+                    return value
 
     return None
 
@@ -45,7 +57,25 @@ def get_connection():
         "database": get_secret("SNOWFLAKE_DATABASE") or DEFAULTS["database"],
         "schema": get_secret("SNOWFLAKE_SCHEMA") or DEFAULTS["schema"],
     }
+
+    snowflake_section = None
+    if st.secrets is not None:
+        if "snowflake" in st.secrets:
+            snowflake_section = st.secrets["snowflake"]
+        elif "SNOWFLAKE" in st.secrets:
+            snowflake_section = st.secrets["SNOWFLAKE"]
+
+    if isinstance(snowflake_section, dict):
+        snowflake_config["user"] = snowflake_config["user"] or snowflake_section.get("user") or snowflake_section.get("username")
+        snowflake_config["password"] = snowflake_config["password"] or snowflake_section.get("password")
+        snowflake_config["account"] = snowflake_config["account"] or snowflake_section.get("account")
+        snowflake_config["warehouse"] = snowflake_config["warehouse"] or snowflake_section.get("warehouse")
+        snowflake_config["database"] = snowflake_config["database"] or snowflake_section.get("database")
+        snowflake_config["schema"] = snowflake_config["schema"] or snowflake_section.get("schema")
+
     role = get_secret("SNOWFLAKE_ROLE")
+    if not role and isinstance(snowflake_section, dict):
+        role = snowflake_section.get("role")
     if role:
         snowflake_config["role"] = role
 
