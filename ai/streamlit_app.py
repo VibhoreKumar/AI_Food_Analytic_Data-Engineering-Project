@@ -228,8 +228,7 @@ def main():
 
     st.title("Food Delivery Analytic Dashboard")
     st.write(
-        "This dashboard reads review and enrichment data directly from Snowflake using the configured Snowflake connection. "
-        "Update env values in `ai/.env` or your environment before running."
+        "This dashboard visualizes AI-enriched customer review data, combining sentiment classification, topic extraction, and issue flagging to help identify patterns in customer feedback — such as which topics drive negative sentiment, and which issues appear most frequently across restaurants or cities."
     )
 
     with st.sidebar:
