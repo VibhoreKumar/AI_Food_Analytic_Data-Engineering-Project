@@ -221,12 +221,12 @@ def render_latest_reviews(data: dict, limit: int) -> None:
 
 def main():
     st.set_page_config(
-        page_title="Zomato Snowflake Dashboard",
+        page_title="Food Delivery Analytic Dashboard",
         page_icon="🍽️",
         layout="wide",
     )
 
-    st.title("Zomato Snowflake Review Dashboard")
+    st.title("Food Delivery Analytic Dashboard")
     st.write(
         "This dashboard reads review and enrichment data directly from Snowflake using the configured Snowflake connection. "
         "Update env values in `ai/.env` or your environment before running."
