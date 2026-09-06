@@ -18,10 +18,13 @@ A simple Streamlit dashboard that connects to Snowflake and shows review analyti
    - `SNOWFLAKE_DATABASE` (default: `ZOMATO`)
    - `SNOWFLAKE_SCHEMA` (default: `RAW`)
 
-3. Run locally:
+3. Run locally from the `ai` folder:
    ```bash
+   cd ai
    streamlit run app.py
    ```
+
+4. For Streamlit Cloud, set the same Snowflake environment variables in the app secrets instead of relying on a local `.env` file.
 
 ## Notes
 
