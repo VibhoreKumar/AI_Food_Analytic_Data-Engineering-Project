@@ -4,13 +4,13 @@
 
 with child as (
     select customer_id as from_field
-    from ZOMATO.marts.fct_orders
+    from "zomato"."marts"."fct_orders"
     where customer_id is not null
 ),
 
 parent as (
     select customer_id as to_field
-    from ZOMATO.marts.dim_customer
+    from "zomato"."marts"."dim_customer"
 )
 
 select

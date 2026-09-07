@@ -1,7 +1,11 @@
 with spine as (
-    select dateadd(day, seq4(), '2024-01-01'::date) as date_day 
-    from 
-    table(generator(rowcount=>1200)))
-select date_day, year(date_day) as year, month(date_day) as month, monthname(date_day) as month_name,
-       dayname(date_day) as day_name, (dayofweekiso(date_day)>=6) as is_weekend
-from spine where date_day <= '2026-12-31'
+    select unnest(generate_series('2024-01-01'::date, '2026-12-31'::date, interval 1 day)) as date_day
+)
+select
+    date_day,
+    extract(year from date_day) as year,
+    extract(month from date_day) as month,
+    strftime(date_day, '%B') as month_name,
+    strftime(date_day, '%A') as day_name,
+    (dayofweek(date_day) in (0, 6)) as is_weekend
+from spine

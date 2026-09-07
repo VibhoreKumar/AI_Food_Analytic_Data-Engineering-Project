@@ -10,7 +10,7 @@ select
     oi.price,
     oi.quantity,
     oi.line_amount
-from ZOMATO.staging.stg_order_items oi
-inner join ZOMATO.staging.stg_orders o using (order_id)
+from "zomato"."staging"."stg_order_items" oi
+inner join "zomato"."staging"."stg_orders" o using (order_id)
 
-  where o.order_timestamp > (select coalesce(max(order_ts),'1900-01-01'::timestamp) from ZOMATO.marts.fact_order_items)
+  where o.order_timestamp > (select coalesce(max(order_ts),'1900-01-01'::timestamp) from "zomato"."marts"."fact_order_items")

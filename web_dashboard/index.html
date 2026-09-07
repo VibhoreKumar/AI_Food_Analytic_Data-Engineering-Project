@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zomato AI Analytics — Control Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand"><span class="brand-mark">Z</span><span><strong>Zomato</strong><small>AI analytics</small></span></div>
+  <div class="topbar-actions"><span class="ticket-date" id="ticket-date"></span><button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to light mode" title="Switch theme">☼</button></div>
+</header>
+
+<main class="app-shell">
+  <aside class="sidebar">
+    <div class="eyebrow">Operations desk</div>
+    <h1>Order line<br><em>control room</em></h1>
+    <p class="subhead">A live-style read on orders, revenue, delivery speed, and restaurant performance.</p>
+    <nav class="view-nav" aria-label="Dashboard views">
+      <button class="view-link active" data-view="overview" type="button"><span>01</span>Overview</button>
+      <button class="view-link" data-view="operations" type="button"><span>02</span>Operations</button>
+      <button class="view-link" data-view="restaurants" type="button"><span>03</span>Restaurants</button>
+    </nav>
+    <div class="sidebar-note"><span class="live-dot"></span>Warehouse snapshot<br><b id="snapshot-label">Jan–Dec 2024</b></div>
+  </aside>
+
+  <section class="dashboard">
+    <div class="dashboard-heading">
+      <div><span class="section-kicker">Executive view / <span id="view-kicker">overview</span></span><h2 id="view-title">The pulse of the platform</h2></div>
+      <span class="data-stamp">TICKET #001 · <span id="data-date"></span></span>
+    </div>
+
+    <div class="stat-row" id="stat-row"><div class="stat"><span class="stat-label">Loading</span><span class="stat-value">—</span></div></div>
+
+    <div class="view-panel active" id="view-overview" data-panel="overview">
+      <section class="block feature-block">
+    <div class="block-head">
+      <h2>Revenue by city</h2>
+      <p>Monthly gross merchandise value across the top-performing cities.</p>
+    </div>
+    <div class="chart-card">
+      <div class="chart-wrap" style="height:340px;">
+        <canvas id="revenueChart" role="img" aria-label="Line chart of monthly GMV for the top cities"></canvas>
+      </div>
+      <div class="legend" id="revenue-legend"></div>
+    </div>
+      </section>
+      <section class="block two-col">
+        <div>
+          <div class="block-head"><h2>Orders by hour</h2><p>Demand rhythm across all cities.</p></div>
+          <div class="chart-card"><div class="chart-wrap chart-short"><canvas id="hourChart" role="img" aria-label="Line chart of delivered order volume by hour"></canvas></div></div>
+        </div>
+        <div class="insight-panel"><span class="section-kicker">Readout</span><h3 id="insight-title">Loading signal</h3><p id="insight-copy">Calculating the strongest demand and performance signals from the warehouse snapshot.</p><div class="insight-rule"></div><span class="mono-note">Source · dbt marts / sampled window</span></div>
+      </section>
+    </div>
+
+    <div class="view-panel" id="view-operations" data-panel="operations">
+      <section class="block two-col">
+        <div>
+          <div class="block-head"><h2>Delivery speed by city</h2><p>Weighted median minutes from order to doorstep.</p></div>
+          <div class="chart-card"><div class="chart-wrap chart-tall"><canvas id="slaChart" role="img" aria-label="Horizontal bar chart of median delivery time by city"></canvas></div></div>
+        </div>
+        <div>
+          <div class="block-head"><h2>Operations brief</h2><p>Signals that need a closer look.</p></div>
+          <div class="metric-list" id="ops-list"></div>
+        </div>
+      </section>
+    </div>
+
+    <div class="view-panel" id="view-restaurants" data-panel="restaurants">
+      <section class="block">
+    <div class="block-head">
+      <h2>Top 20 restaurants</h2>
+      <p>Ranked by revenue delivered, in this dataset's window.</p>
+    </div>
+    <div class="chart-card">
+      <div class="chart-wrap" style="height:620px;">
+        <canvas id="restaurantChart" role="img" aria-label="Horizontal bar chart of top 20 restaurants by revenue"></canvas>
+      </div>
+    </div>
+      </section>
+    </div>
+  </section>
+</main>
+
+<footer class="ticket-footer">
+  <span>—— cut here ——</span>
+  <p>Built on S3 → Snowflake/DuckDB → dbt → Airflow → this page. Data reflects a sampled dataset, not a live business.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

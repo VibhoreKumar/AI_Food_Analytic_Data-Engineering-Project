@@ -1,5 +1,4 @@
 
-    
     select
       count(*) as failures,
       count(*) != 0 as should_warn,
@@ -14,7 +13,7 @@
 
 
 select id
-from ZOMATO.staging.stg_restaurants
+from "zomato"."staging"."stg_restaurants"
 where id is null
 
 

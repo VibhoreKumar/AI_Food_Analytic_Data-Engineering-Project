@@ -1,3 +1,3 @@
 select
     *
-from ZOMATO.RAW.users
+from "zomato"."raw"."users"

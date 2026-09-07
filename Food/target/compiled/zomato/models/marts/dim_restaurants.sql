@@ -6,4 +6,4 @@ select
     rating,
     rating_count,
     cost as cost_for_two
-from ZOMATO.staging.stg_restaurants
+from "zomato"."staging"."stg_restaurants"

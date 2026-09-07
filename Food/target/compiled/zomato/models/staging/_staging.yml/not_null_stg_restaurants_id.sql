@@ -5,7 +5,7 @@
 
 
 select id
-from ZOMATO.staging.stg_restaurants
+from "zomato"."staging"."stg_restaurants"
 where id is null
 
 

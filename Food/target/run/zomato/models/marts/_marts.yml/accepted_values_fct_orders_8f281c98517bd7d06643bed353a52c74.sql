@@ -1,5 +1,4 @@
 
-    
     select
       count(*) as failures,
       count(*) != 0 as should_warn,
@@ -17,7 +16,7 @@ with all_values as (
         order_status as value_field,
         count(*) as n_records
 
-    from ZOMATO.marts.fct_orders
+    from "zomato"."marts"."fct_orders"
     group by order_status
 
 )

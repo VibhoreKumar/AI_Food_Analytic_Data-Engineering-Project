@@ -1,7 +1,6 @@
 sources:
   - name: raw
-    database: ZOMATO
-    schema: RAW
+    schema: raw
     tables:
       - name: restaurants
         description: "This table contains information about restaurants, including their names, locations, cuisines, and ratings."
@@ -19,8 +18,7 @@ sources:
         description: "This table contains information about reviews, including the ratings and comments."
 
   - name: ai
-    database: ZOMATO
-    schema: AI
+    schema: ai
     tables:
       - name: review_enriched
         description: "AI-enriched review data with sentiment scores, topics, and flagged issues, populated by an external enrichment pipeline."

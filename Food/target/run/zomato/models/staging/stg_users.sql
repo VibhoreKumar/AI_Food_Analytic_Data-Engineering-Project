@@ -1,9 +1,7 @@
 
-  create or replace   view ZOMATO.staging.stg_users
   
-   as (
+  create view "zomato"."staging"."stg_users__dbt_tmp" as (
     select
     *
-from ZOMATO.RAW.users
+from "zomato"."raw"."users"
   );
-

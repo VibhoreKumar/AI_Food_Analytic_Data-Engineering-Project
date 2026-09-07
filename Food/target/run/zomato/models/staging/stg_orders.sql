@@ -1,9 +1,7 @@
 
-  create or replace   view ZOMATO.staging.stg_orders
   
-   as (
+  create view "zomato"."staging"."stg_orders__dbt_tmp" as (
     select
     *
-from ZOMATO.RAW.orders
+from "zomato"."raw"."orders"
   );
-

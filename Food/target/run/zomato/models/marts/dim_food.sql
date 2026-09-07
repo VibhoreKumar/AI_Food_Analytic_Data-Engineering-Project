@@ -1,14 +1,17 @@
 
   
     
+    
 
-        create or replace transient table ZOMATO.marts.dim_food
-         as
-        (select
+    create  table
+      "zomato"."marts"."dim_food__dbt_tmp"
+  
+    as (
+      select
     f_id,
     item as food_name,
     veg_or_non_veg
-from ZOMATO.staging.stg_food
-        );
-      
+from "zomato"."staging"."stg_food"
+    );
+  
   

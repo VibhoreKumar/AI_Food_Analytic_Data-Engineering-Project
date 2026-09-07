@@ -19,6 +19,6 @@ select
     sales_amount,
     customer_rating,
     delivery_time_min
-from ZOMATO.staging.stg_orders
+from "zomato"."staging"."stg_orders"
 
-  where order_timestamp > (select coalesce(max(order_timestamp),'1900-01-01'::timestamp) from ZOMATO.marts.fct_orders)
+  where order_timestamp > (select coalesce(max(order_timestamp),'1900-01-01'::timestamp) from "zomato"."marts"."fct_orders")

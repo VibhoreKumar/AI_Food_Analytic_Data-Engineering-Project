@@ -1,3 +1,3 @@
 select
     *
-from ZOMATO.RAW.restaurants
+from "zomato"."raw"."restaurants"

@@ -1,9 +1,7 @@
 
-  create or replace   view ZOMATO.staging.stg_food
   
-   as (
+  create view "zomato"."staging"."stg_food__dbt_tmp" as (
     select
     *
-from ZOMATO.RAW.food
+from "zomato"."raw"."food"
   );
-
