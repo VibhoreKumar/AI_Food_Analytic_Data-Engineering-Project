@@ -3,94 +3,109 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Zomato AI Analytics — Control Room</title>
+<title>Food Delivery Analytics</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="topbar">
-  <div class="brand"><span class="brand-mark">Z</span><span><strong>Zomato</strong><small>AI analytics</small></span></div>
-  <div class="topbar-actions"><span class="ticket-date" id="ticket-date"></span><button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to light mode" title="Switch theme">☼</button></div>
-</header>
+<div class="app">
 
-<main class="app-shell">
   <aside class="sidebar">
-    <div class="eyebrow">Operations desk</div>
-    <h1>Order line<br><em>control room</em></h1>
-    <p class="subhead">A live-style read on orders, revenue, delivery speed, and restaurant performance.</p>
-    <nav class="view-nav" aria-label="Dashboard views">
-      <button class="view-link active" data-view="overview" type="button"><span>01</span>Overview</button>
-      <button class="view-link" data-view="operations" type="button"><span>02</span>Operations</button>
-      <button class="view-link" data-view="restaurants" type="button"><span>03</span>Restaurants</button>
+    <div class="brand">
+      <div class="logo">FD</div>
+      <div>
+        <div class="brand-name">Foody</div>
+        <div class="brand-sub">Food delivery analytics</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#overview" class="nav-item active" data-target="overview">Overview</a>
+      <a href="#revenue" class="nav-item" data-target="revenue">Revenue</a>
+      <a href="#restaurants" class="nav-item" data-target="restaurants">Restaurants</a>
+      <a href="#delivery" class="nav-item" data-target="delivery">Delivery</a>
     </nav>
-    <div class="sidebar-note"><span class="live-dot"></span>Warehouse snapshot<br><b id="snapshot-label">Jan–Dec 2024</b></div>
   </aside>
 
-  <section class="dashboard">
-    <div class="dashboard-heading">
-      <div><span class="section-kicker">Executive view / <span id="view-kicker">overview</span></span><h2 id="view-title">The pulse of the platform</h2></div>
-      <span class="data-stamp">TICKET #001 · <span id="data-date"></span></span>
-    </div>
+  <main class="content">
 
-    <div class="stat-row" id="stat-row"><div class="stat"><span class="stat-label">Loading</span><span class="stat-value">—</span></div></div>
-
-    <div class="view-panel active" id="view-overview" data-panel="overview">
-      <section class="block feature-block">
-    <div class="block-head">
-      <h2>Revenue by city</h2>
-      <p>Monthly gross merchandise value across the top-performing cities.</p>
+    <div class="content-header">
+      <h1>Overview</h1>
+      <span class="updated" id="updated-at">Updated —</span>
     </div>
-    <div class="chart-card">
-      <div class="chart-wrap" style="height:340px;">
-        <canvas id="revenueChart" role="img" aria-label="Line chart of monthly GMV for the top cities"></canvas>
+    <p class="lede" id="lede">Loading dataset summary…</p>
+
+    <div class="filter-bar">
+      <div class="filter-group">
+        <span class="filter-label">City</span>
+        <div class="chips" id="city-chips"></div>
       </div>
-      <div class="legend" id="revenue-legend"></div>
-    </div>
-      </section>
-      <section class="block two-col">
-        <div>
-          <div class="block-head"><h2>Orders by hour</h2><p>Demand rhythm across all cities.</p></div>
-          <div class="chart-card"><div class="chart-wrap chart-short"><canvas id="hourChart" role="img" aria-label="Line chart of delivered order volume by hour"></canvas></div></div>
-        </div>
-        <div class="insight-panel"><span class="section-kicker">Readout</span><h3 id="insight-title">Loading signal</h3><p id="insight-copy">Calculating the strongest demand and performance signals from the warehouse snapshot.</p><div class="insight-rule"></div><span class="mono-note">Source · dbt marts / sampled window</span></div>
-      </section>
-    </div>
-
-    <div class="view-panel" id="view-operations" data-panel="operations">
-      <section class="block two-col">
-        <div>
-          <div class="block-head"><h2>Delivery speed by city</h2><p>Weighted median minutes from order to doorstep.</p></div>
-          <div class="chart-card"><div class="chart-wrap chart-tall"><canvas id="slaChart" role="img" aria-label="Horizontal bar chart of median delivery time by city"></canvas></div></div>
-        </div>
-        <div>
-          <div class="block-head"><h2>Operations brief</h2><p>Signals that need a closer look.</p></div>
-          <div class="metric-list" id="ops-list"></div>
-        </div>
-      </section>
-    </div>
-
-    <div class="view-panel" id="view-restaurants" data-panel="restaurants">
-      <section class="block">
-    <div class="block-head">
-      <h2>Top 20 restaurants</h2>
-      <p>Ranked by revenue delivered, in this dataset's window.</p>
-    </div>
-    <div class="chart-card">
-      <div class="chart-wrap" style="height:620px;">
-        <canvas id="restaurantChart" role="img" aria-label="Horizontal bar chart of top 20 restaurants by revenue"></canvas>
+      <div class="filter-group">
+        <span class="filter-label">From</span>
+        <select id="month-from"></select>
+        <span class="filter-label">To</span>
+        <select id="month-to"></select>
       </div>
+      <button class="reset-btn" id="reset-filters">Reset filters</button>
     </div>
-      </section>
-    </div>
-  </section>
-</main>
 
-<footer class="ticket-footer">
-  <span>—— cut here ——</span>
-  <p>Built on S3 → Snowflake/DuckDB → dbt → Airflow → this page. Data reflects a sampled dataset, not a live business.</p>
-</footer>
+    <div class="kpi-grid" id="kpi-grid"></div>
+
+    <section id="revenue" class="section">
+      <div class="card-grid two-col">
+        <div class="card accent-blue">
+          <h3>Revenue by city</h3>
+          <p class="card-sub">Monthly GMV, top cities selected</p>
+          <div class="chart-wrap" style="height:300px;">
+            <canvas id="revenueChart"></canvas>
+          </div>
+          <div class="legend" id="revenue-legend"></div>
+        </div>
+        <div class="card accent-orange">
+          <h3>This period</h3>
+          <p class="card-sub">Latest month vs. the one before it</p>
+          <div class="period-list" id="period-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="restaurants" class="section">
+      <div class="card accent-red full">
+        <h3>Top restaurants</h3>
+        <p class="card-sub">Ranked by revenue, in the selected cities</p>
+        <div class="chart-wrap" style="height:560px;">
+          <canvas id="restaurantChart"></canvas>
+        </div>
+        <p class="empty-note" id="restaurant-empty" hidden>No restaurants in the selected cities.</p>
+      </div>
+    </section>
+
+    <section id="delivery" class="section">
+      <div class="card-grid two-col">
+        <div class="card accent-teal">
+          <h3>Delivery speed by city</h3>
+          <p class="card-sub">Median minutes, delivered orders only</p>
+          <div class="chart-wrap" style="height:380px;">
+            <canvas id="slaChart"></canvas>
+          </div>
+        </div>
+        <div class="card accent-purple">
+          <h3>Orders by hour</h3>
+          <p class="card-sub">Aggregated across selected cities</p>
+          <div class="chart-wrap" style="height:380px;">
+            <canvas id="hourChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <p>Pipeline: S3 → DuckDB / Snowflake → dbt → this dashboard. Data reflects a sampled dataset, not a live business.</p>
+    </footer>
+
+  </main>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script src="script.js"></script>
