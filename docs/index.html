@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Delivery Analytics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo">FD</div>
+      <div>
+        <div class="brand-name">Foody</div>
+        <div class="brand-sub">Food delivery analytics</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#overview" class="nav-item active" data-target="overview">Overview</a>
+      <a href="#revenue" class="nav-item" data-target="revenue">Revenue</a>
+      <a href="#restaurants" class="nav-item" data-target="restaurants">Restaurants</a>
+      <a href="#delivery" class="nav-item" data-target="delivery">Delivery</a>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <div class="content-header">
+      <h1>Overview</h1>
+      <span class="updated" id="updated-at">Updated —</span>
+    </div>
+    <p class="lede" id="lede">Loading dataset summary…</p>
+
+    <div class="filter-bar">
+      <div class="filter-group">
+        <span class="filter-label">City</span>
+        <div class="chips" id="city-chips"></div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">From</span>
+        <select id="month-from"></select>
+        <span class="filter-label">To</span>
+        <select id="month-to"></select>
+      </div>
+      <button class="reset-btn" id="reset-filters">Reset filters</button>
+    </div>
+
+    <div class="kpi-grid" id="kpi-grid"></div>
+
+    <section id="revenue" class="section">
+      <div class="card-grid two-col">
+        <div class="card accent-blue">
+          <h3>Revenue by city</h3>
+          <p class="card-sub">Monthly GMV, top cities selected</p>
+          <div class="chart-wrap" style="height:300px;">
+            <canvas id="revenueChart"></canvas>
+          </div>
+          <div class="legend" id="revenue-legend"></div>
+        </div>
+        <div class="card accent-orange">
+          <h3>This period</h3>
+          <p class="card-sub">Latest month vs. the one before it</p>
+          <div class="period-list" id="period-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="restaurants" class="section">
+      <div class="card accent-red full">
+        <h3>Top restaurants</h3>
+        <p class="card-sub">Ranked by revenue, in the selected cities</p>
+        <div class="chart-wrap" style="height:560px;">
+          <canvas id="restaurantChart"></canvas>
+        </div>
+        <p class="empty-note" id="restaurant-empty" hidden>No restaurants in the selected cities.</p>
+      </div>
+    </section>
+
+    <section id="delivery" class="section">
+      <div class="card-grid two-col">
+        <div class="card accent-teal">
+          <h3>Delivery speed by city</h3>
+          <p class="card-sub">Median minutes, delivered orders only</p>
+          <div class="chart-wrap" style="height:380px;">
+            <canvas id="slaChart"></canvas>
+          </div>
+        </div>
+        <div class="card accent-purple">
+          <h3>Orders by hour</h3>
+          <p class="card-sub">Aggregated across selected cities</p>
+          <div class="chart-wrap" style="height:380px;">
+            <canvas id="hourChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <p>Pipeline: S3 → DuckDB / Snowflake → dbt → this dashboard. Data reflects a sampled dataset, not a live business.</p>
+    </footer>
+
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
