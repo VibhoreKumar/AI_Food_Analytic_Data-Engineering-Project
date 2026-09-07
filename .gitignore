@@ -37,3 +37,4 @@ streamlit_app/.streamlit/secrets.toml
 .vscode/
 .idea/
 data/
+Food/zomato.duckdb
