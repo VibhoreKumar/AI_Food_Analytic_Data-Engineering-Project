@@ -1,0 +1,4052 @@
+[
+  {
+    "month": "2024-01-01",
+    "city": "Ahmedabad",
+    "orders": 4180,
+    "delivered_orders": 3799,
+    "cancel_rate": 0.0646,
+    "gmv": 2078319,
+    "aov": 547.07
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Bangalore",
+    "orders": 21095,
+    "delivered_orders": 19349,
+    "cancel_rate": 0.0586,
+    "gmv": 10251523,
+    "aov": 529.82
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Bikaner",
+    "orders": 2299,
+    "delivered_orders": 2108,
+    "cancel_rate": 0.0596,
+    "gmv": 1203577,
+    "aov": 570.96
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Chandigarh",
+    "orders": 4055,
+    "delivered_orders": 3716,
+    "cancel_rate": 0.0538,
+    "gmv": 1650744,
+    "aov": 444.23
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Chennai",
+    "orders": 14830,
+    "delivered_orders": 13475,
+    "cancel_rate": 0.0634,
+    "gmv": 6756766,
+    "aov": 501.43
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Delhi",
+    "orders": 16066,
+    "delivered_orders": 14699,
+    "cancel_rate": 0.0622,
+    "gmv": 7671433,
+    "aov": 521.9
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Gurgaon",
+    "orders": 2812,
+    "delivered_orders": 2580,
+    "cancel_rate": 0.0612,
+    "gmv": 1220577,
+    "aov": 473.09
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Hyderabad",
+    "orders": 13785,
+    "delivered_orders": 12582,
+    "cancel_rate": 0.0595,
+    "gmv": 6437429,
+    "aov": 511.64
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Indore",
+    "orders": 1893,
+    "delivered_orders": 1736,
+    "cancel_rate": 0.0602,
+    "gmv": 748224,
+    "aov": 431.0
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Kolkata",
+    "orders": 10805,
+    "delivered_orders": 9964,
+    "cancel_rate": 0.0552,
+    "gmv": 5249275,
+    "aov": 526.82
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Lucknow",
+    "orders": 3205,
+    "delivered_orders": 2950,
+    "cancel_rate": 0.0571,
+    "gmv": 1184185,
+    "aov": 401.42
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Mumbai",
+    "orders": 7473,
+    "delivered_orders": 6840,
+    "cancel_rate": 0.0609,
+    "gmv": 4144594,
+    "aov": 605.93
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Nagpur",
+    "orders": 2060,
+    "delivered_orders": 1875,
+    "cancel_rate": 0.0694,
+    "gmv": 878914,
+    "aov": 468.75
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Noida-1",
+    "orders": 1754,
+    "delivered_orders": 1607,
+    "cancel_rate": 0.0656,
+    "gmv": 816995,
+    "aov": 508.4
+  },
+  {
+    "month": "2024-01-01",
+    "city": "Pune",
+    "orders": 13906,
+    "delivered_orders": 12738,
+    "cancel_rate": 0.0584,
+    "gmv": 6305907,
+    "aov": 495.05
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Ahmedabad",
+    "orders": 4005,
+    "delivered_orders": 3653,
+    "cancel_rate": 0.0637,
+    "gmv": 2047823,
+    "aov": 560.59
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Bangalore",
+    "orders": 21039,
+    "delivered_orders": 19310,
+    "cancel_rate": 0.0573,
+    "gmv": 10294368,
+    "aov": 533.11
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Bikaner",
+    "orders": 2338,
+    "delivered_orders": 2143,
+    "cancel_rate": 0.0586,
+    "gmv": 1263694,
+    "aov": 589.68
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Chandigarh",
+    "orders": 4082,
+    "delivered_orders": 3758,
+    "cancel_rate": 0.0537,
+    "gmv": 1688465,
+    "aov": 449.3
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Chennai",
+    "orders": 14661,
+    "delivered_orders": 13377,
+    "cancel_rate": 0.0634,
+    "gmv": 6654280,
+    "aov": 497.44
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Delhi",
+    "orders": 15852,
+    "delivered_orders": 14463,
+    "cancel_rate": 0.0619,
+    "gmv": 7578257,
+    "aov": 523.98
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Gurgaon",
+    "orders": 2991,
+    "delivered_orders": 2749,
+    "cancel_rate": 0.0562,
+    "gmv": 1305256,
+    "aov": 474.81
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Hyderabad",
+    "orders": 13871,
+    "delivered_orders": 12727,
+    "cancel_rate": 0.0577,
+    "gmv": 6338913,
+    "aov": 498.07
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Indore",
+    "orders": 1907,
+    "delivered_orders": 1744,
+    "cancel_rate": 0.0587,
+    "gmv": 762289,
+    "aov": 437.09
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Kolkata",
+    "orders": 10681,
+    "delivered_orders": 9781,
+    "cancel_rate": 0.0593,
+    "gmv": 5140999,
+    "aov": 525.61
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Lucknow",
+    "orders": 3280,
+    "delivered_orders": 3001,
+    "cancel_rate": 0.0582,
+    "gmv": 1268640,
+    "aov": 422.74
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Mumbai",
+    "orders": 7352,
+    "delivered_orders": 6682,
+    "cancel_rate": 0.0645,
+    "gmv": 4071629,
+    "aov": 609.34
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Nagpur",
+    "orders": 2134,
+    "delivered_orders": 1940,
+    "cancel_rate": 0.0637,
+    "gmv": 874224,
+    "aov": 450.63
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Noida-1",
+    "orders": 1688,
+    "delivered_orders": 1551,
+    "cancel_rate": 0.0527,
+    "gmv": 809937,
+    "aov": 522.2
+  },
+  {
+    "month": "2024-02-01",
+    "city": "Pune",
+    "orders": 13851,
+    "delivered_orders": 12730,
+    "cancel_rate": 0.056,
+    "gmv": 6285631,
+    "aov": 493.77
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Ahmedabad",
+    "orders": 4716,
+    "delivered_orders": 4316,
+    "cancel_rate": 0.0626,
+    "gmv": 2346076,
+    "aov": 543.58
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Bangalore",
+    "orders": 24004,
+    "delivered_orders": 21952,
+    "cancel_rate": 0.0591,
+    "gmv": 11622200,
+    "aov": 529.44
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Bikaner",
+    "orders": 2703,
+    "delivered_orders": 2486,
+    "cancel_rate": 0.0573,
+    "gmv": 1439792,
+    "aov": 579.16
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Chandigarh",
+    "orders": 4733,
+    "delivered_orders": 4325,
+    "cancel_rate": 0.06,
+    "gmv": 1894082,
+    "aov": 437.94
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Chennai",
+    "orders": 17182,
+    "delivered_orders": 15742,
+    "cancel_rate": 0.0588,
+    "gmv": 7826499,
+    "aov": 497.17
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Delhi",
+    "orders": 18508,
+    "delivered_orders": 16930,
+    "cancel_rate": 0.0593,
+    "gmv": 8824459,
+    "aov": 521.23
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Gurgaon",
+    "orders": 3355,
+    "delivered_orders": 3068,
+    "cancel_rate": 0.0644,
+    "gmv": 1466498,
+    "aov": 478.0
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Hyderabad",
+    "orders": 15893,
+    "delivered_orders": 14503,
+    "cancel_rate": 0.0617,
+    "gmv": 7273845,
+    "aov": 501.54
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Indore",
+    "orders": 2139,
+    "delivered_orders": 1952,
+    "cancel_rate": 0.0608,
+    "gmv": 840249,
+    "aov": 430.46
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Kolkata",
+    "orders": 12219,
+    "delivered_orders": 11203,
+    "cancel_rate": 0.0579,
+    "gmv": 5868625,
+    "aov": 523.84
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Lucknow",
+    "orders": 3736,
+    "delivered_orders": 3402,
+    "cancel_rate": 0.0605,
+    "gmv": 1378347,
+    "aov": 405.16
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Mumbai",
+    "orders": 8407,
+    "delivered_orders": 7672,
+    "cancel_rate": 0.0579,
+    "gmv": 4737955,
+    "aov": 617.56
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Nagpur",
+    "orders": 2326,
+    "delivered_orders": 2129,
+    "cancel_rate": 0.0546,
+    "gmv": 962799,
+    "aov": 452.23
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Noida-1",
+    "orders": 1990,
+    "delivered_orders": 1824,
+    "cancel_rate": 0.0593,
+    "gmv": 928507,
+    "aov": 509.05
+  },
+  {
+    "month": "2024-03-01",
+    "city": "Pune",
+    "orders": 15927,
+    "delivered_orders": 14599,
+    "cancel_rate": 0.059,
+    "gmv": 7312017,
+    "aov": 500.86
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Ahmedabad",
+    "orders": 4621,
+    "delivered_orders": 4260,
+    "cancel_rate": 0.0552,
+    "gmv": 2348010,
+    "aov": 551.18
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Bangalore",
+    "orders": 23573,
+    "delivered_orders": 21586,
+    "cancel_rate": 0.0585,
+    "gmv": 11390763,
+    "aov": 527.69
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Bikaner",
+    "orders": 2700,
+    "delivered_orders": 2464,
+    "cancel_rate": 0.0596,
+    "gmv": 1459690,
+    "aov": 592.41
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Chandigarh",
+    "orders": 4717,
+    "delivered_orders": 4326,
+    "cancel_rate": 0.06,
+    "gmv": 1907605,
+    "aov": 440.96
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Chennai",
+    "orders": 16648,
+    "delivered_orders": 15207,
+    "cancel_rate": 0.0613,
+    "gmv": 7529473,
+    "aov": 495.13
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Delhi",
+    "orders": 18421,
+    "delivered_orders": 16878,
+    "cancel_rate": 0.0591,
+    "gmv": 8831224,
+    "aov": 523.24
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Gurgaon",
+    "orders": 3156,
+    "delivered_orders": 2888,
+    "cancel_rate": 0.0596,
+    "gmv": 1342872,
+    "aov": 464.98
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Hyderabad",
+    "orders": 15575,
+    "delivered_orders": 14262,
+    "cancel_rate": 0.0593,
+    "gmv": 7246156,
+    "aov": 508.07
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Indore",
+    "orders": 2032,
+    "delivered_orders": 1862,
+    "cancel_rate": 0.0586,
+    "gmv": 803112,
+    "aov": 431.32
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Kolkata",
+    "orders": 11772,
+    "delivered_orders": 10742,
+    "cancel_rate": 0.0605,
+    "gmv": 5612575,
+    "aov": 522.49
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Lucknow",
+    "orders": 3571,
+    "delivered_orders": 3242,
+    "cancel_rate": 0.0652,
+    "gmv": 1312370,
+    "aov": 404.8
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Mumbai",
+    "orders": 8142,
+    "delivered_orders": 7433,
+    "cancel_rate": 0.063,
+    "gmv": 4588996,
+    "aov": 617.38
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Nagpur",
+    "orders": 2301,
+    "delivered_orders": 2109,
+    "cancel_rate": 0.0539,
+    "gmv": 972767,
+    "aov": 461.25
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Noida-1",
+    "orders": 1976,
+    "delivered_orders": 1797,
+    "cancel_rate": 0.0607,
+    "gmv": 895418,
+    "aov": 498.28
+  },
+  {
+    "month": "2024-04-01",
+    "city": "Pune",
+    "orders": 15671,
+    "delivered_orders": 14332,
+    "cancel_rate": 0.0609,
+    "gmv": 7059349,
+    "aov": 492.56
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Ahmedabad",
+    "orders": 5052,
+    "delivered_orders": 4636,
+    "cancel_rate": 0.0564,
+    "gmv": 2540475,
+    "aov": 547.99
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Bangalore",
+    "orders": 25776,
+    "delivered_orders": 23615,
+    "cancel_rate": 0.0606,
+    "gmv": 12431958,
+    "aov": 526.44
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Bikaner",
+    "orders": 2935,
+    "delivered_orders": 2658,
+    "cancel_rate": 0.0675,
+    "gmv": 1564665,
+    "aov": 588.66
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Chandigarh",
+    "orders": 5103,
+    "delivered_orders": 4652,
+    "cancel_rate": 0.0635,
+    "gmv": 2056409,
+    "aov": 442.05
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Chennai",
+    "orders": 18121,
+    "delivered_orders": 16593,
+    "cancel_rate": 0.0581,
+    "gmv": 8309178,
+    "aov": 500.76
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Delhi",
+    "orders": 19923,
+    "delivered_orders": 18263,
+    "cancel_rate": 0.058,
+    "gmv": 9497651,
+    "aov": 520.05
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Gurgaon",
+    "orders": 3434,
+    "delivered_orders": 3170,
+    "cancel_rate": 0.0577,
+    "gmv": 1481922,
+    "aov": 467.48
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Hyderabad",
+    "orders": 16985,
+    "delivered_orders": 15554,
+    "cancel_rate": 0.0596,
+    "gmv": 7827287,
+    "aov": 503.23
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Indore",
+    "orders": 2410,
+    "delivered_orders": 2202,
+    "cancel_rate": 0.0627,
+    "gmv": 968981,
+    "aov": 440.05
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Kolkata",
+    "orders": 12984,
+    "delivered_orders": 11856,
+    "cancel_rate": 0.0627,
+    "gmv": 6278842,
+    "aov": 529.59
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Lucknow",
+    "orders": 3962,
+    "delivered_orders": 3622,
+    "cancel_rate": 0.0601,
+    "gmv": 1503449,
+    "aov": 415.09
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Mumbai",
+    "orders": 8943,
+    "delivered_orders": 8196,
+    "cancel_rate": 0.0559,
+    "gmv": 5029834,
+    "aov": 613.69
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Nagpur",
+    "orders": 2534,
+    "delivered_orders": 2319,
+    "cancel_rate": 0.058,
+    "gmv": 1103668,
+    "aov": 475.92
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Noida-1",
+    "orders": 2162,
+    "delivered_orders": 1975,
+    "cancel_rate": 0.0597,
+    "gmv": 989606,
+    "aov": 501.07
+  },
+  {
+    "month": "2024-05-01",
+    "city": "Pune",
+    "orders": 17023,
+    "delivered_orders": 15542,
+    "cancel_rate": 0.0612,
+    "gmv": 7668716,
+    "aov": 493.42
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Ahmedabad",
+    "orders": 5296,
+    "delivered_orders": 4830,
+    "cancel_rate": 0.0651,
+    "gmv": 2634602,
+    "aov": 545.47
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Bangalore",
+    "orders": 26468,
+    "delivered_orders": 24177,
+    "cancel_rate": 0.0623,
+    "gmv": 12713037,
+    "aov": 525.83
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Bikaner",
+    "orders": 3066,
+    "delivered_orders": 2798,
+    "cancel_rate": 0.0574,
+    "gmv": 1641034,
+    "aov": 586.5
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Chandigarh",
+    "orders": 5159,
+    "delivered_orders": 4722,
+    "cancel_rate": 0.0605,
+    "gmv": 2081963,
+    "aov": 440.91
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Chennai",
+    "orders": 18863,
+    "delivered_orders": 17247,
+    "cancel_rate": 0.0605,
+    "gmv": 8702106,
+    "aov": 504.56
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Delhi",
+    "orders": 20690,
+    "delivered_orders": 18874,
+    "cancel_rate": 0.063,
+    "gmv": 9839221,
+    "aov": 521.31
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Gurgaon",
+    "orders": 3652,
+    "delivered_orders": 3340,
+    "cancel_rate": 0.0602,
+    "gmv": 1610668,
+    "aov": 482.24
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Hyderabad",
+    "orders": 17626,
+    "delivered_orders": 16150,
+    "cancel_rate": 0.0597,
+    "gmv": 8181011,
+    "aov": 506.56
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Indore",
+    "orders": 2296,
+    "delivered_orders": 2112,
+    "cancel_rate": 0.0536,
+    "gmv": 917138,
+    "aov": 434.25
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Kolkata",
+    "orders": 13261,
+    "delivered_orders": 12151,
+    "cancel_rate": 0.0596,
+    "gmv": 6265973,
+    "aov": 515.68
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Lucknow",
+    "orders": 4032,
+    "delivered_orders": 3706,
+    "cancel_rate": 0.0548,
+    "gmv": 1561439,
+    "aov": 421.33
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Mumbai",
+    "orders": 9203,
+    "delivered_orders": 8424,
+    "cancel_rate": 0.0567,
+    "gmv": 5134247,
+    "aov": 609.48
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Nagpur",
+    "orders": 2563,
+    "delivered_orders": 2354,
+    "cancel_rate": 0.0538,
+    "gmv": 1102652,
+    "aov": 468.42
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Noida-1",
+    "orders": 2227,
+    "delivered_orders": 2042,
+    "cancel_rate": 0.0575,
+    "gmv": 1033045,
+    "aov": 505.9
+  },
+  {
+    "month": "2024-06-01",
+    "city": "Pune",
+    "orders": 17548,
+    "delivered_orders": 16038,
+    "cancel_rate": 0.0594,
+    "gmv": 8057006,
+    "aov": 502.37
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Ahmedabad",
+    "orders": 5521,
+    "delivered_orders": 5076,
+    "cancel_rate": 0.0587,
+    "gmv": 2774798,
+    "aov": 546.65
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Bangalore",
+    "orders": 27939,
+    "delivered_orders": 25549,
+    "cancel_rate": 0.0597,
+    "gmv": 13432130,
+    "aov": 525.74
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Bikaner",
+    "orders": 3023,
+    "delivered_orders": 2778,
+    "cancel_rate": 0.0549,
+    "gmv": 1627981,
+    "aov": 586.03
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Chandigarh",
+    "orders": 5414,
+    "delivered_orders": 4948,
+    "cancel_rate": 0.0576,
+    "gmv": 2188524,
+    "aov": 442.3
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Chennai",
+    "orders": 19650,
+    "delivered_orders": 17992,
+    "cancel_rate": 0.0596,
+    "gmv": 8950279,
+    "aov": 497.46
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Delhi",
+    "orders": 21199,
+    "delivered_orders": 19431,
+    "cancel_rate": 0.0591,
+    "gmv": 10168437,
+    "aov": 523.31
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Gurgaon",
+    "orders": 3713,
+    "delivered_orders": 3386,
+    "cancel_rate": 0.0633,
+    "gmv": 1620274,
+    "aov": 478.52
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Hyderabad",
+    "orders": 18255,
+    "delivered_orders": 16706,
+    "cancel_rate": 0.0609,
+    "gmv": 8346567,
+    "aov": 499.61
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Indore",
+    "orders": 2424,
+    "delivered_orders": 2203,
+    "cancel_rate": 0.0619,
+    "gmv": 951015,
+    "aov": 431.69
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Kolkata",
+    "orders": 13942,
+    "delivered_orders": 12747,
+    "cancel_rate": 0.0619,
+    "gmv": 6720675,
+    "aov": 527.24
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Lucknow",
+    "orders": 4224,
+    "delivered_orders": 3861,
+    "cancel_rate": 0.0589,
+    "gmv": 1609711,
+    "aov": 416.92
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Mumbai",
+    "orders": 9737,
+    "delivered_orders": 8967,
+    "cancel_rate": 0.0549,
+    "gmv": 5489336,
+    "aov": 612.17
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Nagpur",
+    "orders": 2678,
+    "delivered_orders": 2450,
+    "cancel_rate": 0.0605,
+    "gmv": 1127226,
+    "aov": 460.09
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Noida-1",
+    "orders": 2328,
+    "delivered_orders": 2150,
+    "cancel_rate": 0.0571,
+    "gmv": 1088322,
+    "aov": 506.2
+  },
+  {
+    "month": "2024-07-01",
+    "city": "Pune",
+    "orders": 18341,
+    "delivered_orders": 16805,
+    "cancel_rate": 0.0592,
+    "gmv": 8485430,
+    "aov": 504.93
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Ahmedabad",
+    "orders": 5906,
+    "delivered_orders": 5406,
+    "cancel_rate": 0.0596,
+    "gmv": 2933083,
+    "aov": 542.56
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Bangalore",
+    "orders": 29632,
+    "delivered_orders": 27227,
+    "cancel_rate": 0.0563,
+    "gmv": 14487577,
+    "aov": 532.1
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Bikaner",
+    "orders": 3241,
+    "delivered_orders": 2951,
+    "cancel_rate": 0.0623,
+    "gmv": 1734647,
+    "aov": 587.82
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Chandigarh",
+    "orders": 5708,
+    "delivered_orders": 5250,
+    "cancel_rate": 0.0562,
+    "gmv": 2304373,
+    "aov": 438.93
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Chennai",
+    "orders": 20866,
+    "delivered_orders": 19030,
+    "cancel_rate": 0.0608,
+    "gmv": 9563336,
+    "aov": 502.54
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Delhi",
+    "orders": 23051,
+    "delivered_orders": 21065,
+    "cancel_rate": 0.0609,
+    "gmv": 10995060,
+    "aov": 521.96
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Gurgaon",
+    "orders": 4162,
+    "delivered_orders": 3821,
+    "cancel_rate": 0.0593,
+    "gmv": 1777925,
+    "aov": 465.3
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Hyderabad",
+    "orders": 19423,
+    "delivered_orders": 17737,
+    "cancel_rate": 0.0616,
+    "gmv": 8912348,
+    "aov": 502.47
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Indore",
+    "orders": 2656,
+    "delivered_orders": 2432,
+    "cancel_rate": 0.0565,
+    "gmv": 1086161,
+    "aov": 446.61
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Kolkata",
+    "orders": 15019,
+    "delivered_orders": 13748,
+    "cancel_rate": 0.0585,
+    "gmv": 7171650,
+    "aov": 521.65
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Lucknow",
+    "orders": 4444,
+    "delivered_orders": 4016,
+    "cancel_rate": 0.0653,
+    "gmv": 1631391,
+    "aov": 406.22
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Mumbai",
+    "orders": 10493,
+    "delivered_orders": 9602,
+    "cancel_rate": 0.06,
+    "gmv": 5968897,
+    "aov": 621.63
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Nagpur",
+    "orders": 2821,
+    "delivered_orders": 2584,
+    "cancel_rate": 0.0581,
+    "gmv": 1187082,
+    "aov": 459.4
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Noida-1",
+    "orders": 2408,
+    "delivered_orders": 2195,
+    "cancel_rate": 0.0656,
+    "gmv": 1130268,
+    "aov": 514.93
+  },
+  {
+    "month": "2024-08-01",
+    "city": "Pune",
+    "orders": 19782,
+    "delivered_orders": 18117,
+    "cancel_rate": 0.0595,
+    "gmv": 9017188,
+    "aov": 497.72
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Ahmedabad",
+    "orders": 5828,
+    "delivered_orders": 5321,
+    "cancel_rate": 0.0606,
+    "gmv": 2876762,
+    "aov": 540.64
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Bangalore",
+    "orders": 29489,
+    "delivered_orders": 27008,
+    "cancel_rate": 0.0608,
+    "gmv": 14379233,
+    "aov": 532.41
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Bikaner",
+    "orders": 3273,
+    "delivered_orders": 3001,
+    "cancel_rate": 0.059,
+    "gmv": 1768606,
+    "aov": 589.34
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Chandigarh",
+    "orders": 5634,
+    "delivered_orders": 5167,
+    "cancel_rate": 0.0603,
+    "gmv": 2296728,
+    "aov": 444.5
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Chennai",
+    "orders": 20605,
+    "delivered_orders": 18829,
+    "cancel_rate": 0.0602,
+    "gmv": 9419849,
+    "aov": 500.28
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Delhi",
+    "orders": 22707,
+    "delivered_orders": 20748,
+    "cancel_rate": 0.0598,
+    "gmv": 10695051,
+    "aov": 515.47
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Gurgaon",
+    "orders": 3929,
+    "delivered_orders": 3603,
+    "cancel_rate": 0.0583,
+    "gmv": 1734773,
+    "aov": 481.48
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Hyderabad",
+    "orders": 19597,
+    "delivered_orders": 17919,
+    "cancel_rate": 0.0598,
+    "gmv": 8895859,
+    "aov": 496.45
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Indore",
+    "orders": 2579,
+    "delivered_orders": 2371,
+    "cancel_rate": 0.0531,
+    "gmv": 1061301,
+    "aov": 447.62
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Kolkata",
+    "orders": 14989,
+    "delivered_orders": 13723,
+    "cancel_rate": 0.0594,
+    "gmv": 7249021,
+    "aov": 528.24
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Lucknow",
+    "orders": 4393,
+    "delivered_orders": 4002,
+    "cancel_rate": 0.0646,
+    "gmv": 1638373,
+    "aov": 409.39
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Mumbai",
+    "orders": 10178,
+    "delivered_orders": 9313,
+    "cancel_rate": 0.0586,
+    "gmv": 5705881,
+    "aov": 612.68
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Nagpur",
+    "orders": 2834,
+    "delivered_orders": 2592,
+    "cancel_rate": 0.0625,
+    "gmv": 1185773,
+    "aov": 457.47
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Noida-1",
+    "orders": 2428,
+    "delivered_orders": 2212,
+    "cancel_rate": 0.0634,
+    "gmv": 1105869,
+    "aov": 499.94
+  },
+  {
+    "month": "2024-09-01",
+    "city": "Pune",
+    "orders": 19423,
+    "delivered_orders": 17781,
+    "cancel_rate": 0.0606,
+    "gmv": 8957540,
+    "aov": 503.77
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Ahmedabad",
+    "orders": 6197,
+    "delivered_orders": 5646,
+    "cancel_rate": 0.0605,
+    "gmv": 3097931,
+    "aov": 548.69
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Bangalore",
+    "orders": 31000,
+    "delivered_orders": 28349,
+    "cancel_rate": 0.0601,
+    "gmv": 15022445,
+    "aov": 529.91
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Bikaner",
+    "orders": 3476,
+    "delivered_orders": 3187,
+    "cancel_rate": 0.059,
+    "gmv": 1880274,
+    "aov": 589.98
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Chandigarh",
+    "orders": 6048,
+    "delivered_orders": 5533,
+    "cancel_rate": 0.0618,
+    "gmv": 2420902,
+    "aov": 437.54
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Chennai",
+    "orders": 22022,
+    "delivered_orders": 20127,
+    "cancel_rate": 0.0606,
+    "gmv": 10068270,
+    "aov": 500.24
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Delhi",
+    "orders": 24013,
+    "delivered_orders": 21914,
+    "cancel_rate": 0.0614,
+    "gmv": 11492656,
+    "aov": 524.44
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Gurgaon",
+    "orders": 4188,
+    "delivered_orders": 3808,
+    "cancel_rate": 0.0652,
+    "gmv": 1806590,
+    "aov": 474.42
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Hyderabad",
+    "orders": 20464,
+    "delivered_orders": 18733,
+    "cancel_rate": 0.0574,
+    "gmv": 9403006,
+    "aov": 501.95
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Indore",
+    "orders": 2652,
+    "delivered_orders": 2428,
+    "cancel_rate": 0.0626,
+    "gmv": 1025511,
+    "aov": 422.37
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Kolkata",
+    "orders": 15600,
+    "delivered_orders": 14321,
+    "cancel_rate": 0.0557,
+    "gmv": 7514488,
+    "aov": 524.72
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Lucknow",
+    "orders": 4641,
+    "delivered_orders": 4256,
+    "cancel_rate": 0.0539,
+    "gmv": 1716544,
+    "aov": 403.32
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Mumbai",
+    "orders": 10875,
+    "delivered_orders": 9979,
+    "cancel_rate": 0.0586,
+    "gmv": 6090052,
+    "aov": 610.29
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Nagpur",
+    "orders": 2996,
+    "delivered_orders": 2756,
+    "cancel_rate": 0.0517,
+    "gmv": 1229944,
+    "aov": 446.28
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Noida-1",
+    "orders": 2558,
+    "delivered_orders": 2348,
+    "cancel_rate": 0.0582,
+    "gmv": 1154828,
+    "aov": 491.83
+  },
+  {
+    "month": "2024-10-01",
+    "city": "Pune",
+    "orders": 20602,
+    "delivered_orders": 18827,
+    "cancel_rate": 0.0603,
+    "gmv": 9400911,
+    "aov": 499.33
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Ahmedabad",
+    "orders": 6254,
+    "delivered_orders": 5735,
+    "cancel_rate": 0.0566,
+    "gmv": 3153909,
+    "aov": 549.94
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Bangalore",
+    "orders": 32081,
+    "delivered_orders": 29335,
+    "cancel_rate": 0.0603,
+    "gmv": 15598973,
+    "aov": 531.75
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Bikaner",
+    "orders": 3670,
+    "delivered_orders": 3366,
+    "cancel_rate": 0.0572,
+    "gmv": 2010078,
+    "aov": 597.17
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Chandigarh",
+    "orders": 6195,
+    "delivered_orders": 5679,
+    "cancel_rate": 0.0615,
+    "gmv": 2499780,
+    "aov": 440.18
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Chennai",
+    "orders": 22397,
+    "delivered_orders": 20524,
+    "cancel_rate": 0.0591,
+    "gmv": 10224120,
+    "aov": 498.15
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Delhi",
+    "orders": 24700,
+    "delivered_orders": 22515,
+    "cancel_rate": 0.0615,
+    "gmv": 11840626,
+    "aov": 525.9
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Gurgaon",
+    "orders": 4326,
+    "delivered_orders": 3960,
+    "cancel_rate": 0.0564,
+    "gmv": 1921077,
+    "aov": 485.12
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Hyderabad",
+    "orders": 21097,
+    "delivered_orders": 19347,
+    "cancel_rate": 0.0589,
+    "gmv": 9570068,
+    "aov": 494.65
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Indore",
+    "orders": 2788,
+    "delivered_orders": 2559,
+    "cancel_rate": 0.0606,
+    "gmv": 1133669,
+    "aov": 443.01
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Kolkata",
+    "orders": 16080,
+    "delivered_orders": 14678,
+    "cancel_rate": 0.0606,
+    "gmv": 7647698,
+    "aov": 521.03
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Lucknow",
+    "orders": 4873,
+    "delivered_orders": 4462,
+    "cancel_rate": 0.0607,
+    "gmv": 1867420,
+    "aov": 418.52
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Mumbai",
+    "orders": 11167,
+    "delivered_orders": 10203,
+    "cancel_rate": 0.06,
+    "gmv": 6198918,
+    "aov": 607.56
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Nagpur",
+    "orders": 2978,
+    "delivered_orders": 2738,
+    "cancel_rate": 0.0544,
+    "gmv": 1250848,
+    "aov": 456.85
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Noida-1",
+    "orders": 2605,
+    "delivered_orders": 2400,
+    "cancel_rate": 0.0549,
+    "gmv": 1227765,
+    "aov": 511.57
+  },
+  {
+    "month": "2024-11-01",
+    "city": "Pune",
+    "orders": 21339,
+    "delivered_orders": 19565,
+    "cancel_rate": 0.0592,
+    "gmv": 9816422,
+    "aov": 501.73
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Ahmedabad",
+    "orders": 6833,
+    "delivered_orders": 6231,
+    "cancel_rate": 0.0609,
+    "gmv": 3441062,
+    "aov": 552.25
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Bangalore",
+    "orders": 33684,
+    "delivered_orders": 30804,
+    "cancel_rate": 0.0605,
+    "gmv": 16317456,
+    "aov": 529.72
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Bikaner",
+    "orders": 3752,
+    "delivered_orders": 3445,
+    "cancel_rate": 0.0568,
+    "gmv": 2020807,
+    "aov": 586.59
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Chandigarh",
+    "orders": 6507,
+    "delivered_orders": 5966,
+    "cancel_rate": 0.0612,
+    "gmv": 2581672,
+    "aov": 432.73
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Chennai",
+    "orders": 23726,
+    "delivered_orders": 21619,
+    "cancel_rate": 0.0628,
+    "gmv": 10759211,
+    "aov": 497.67
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Delhi",
+    "orders": 25869,
+    "delivered_orders": 23670,
+    "cancel_rate": 0.06,
+    "gmv": 12342688,
+    "aov": 521.45
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Gurgaon",
+    "orders": 4619,
+    "delivered_orders": 4194,
+    "cancel_rate": 0.0624,
+    "gmv": 1990986,
+    "aov": 474.72
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Hyderabad",
+    "orders": 22220,
+    "delivered_orders": 20320,
+    "cancel_rate": 0.0598,
+    "gmv": 10121045,
+    "aov": 498.08
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Indore",
+    "orders": 3010,
+    "delivered_orders": 2759,
+    "cancel_rate": 0.0578,
+    "gmv": 1217476,
+    "aov": 441.27
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Kolkata",
+    "orders": 17132,
+    "delivered_orders": 15726,
+    "cancel_rate": 0.0585,
+    "gmv": 8220466,
+    "aov": 522.73
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Lucknow",
+    "orders": 5032,
+    "delivered_orders": 4566,
+    "cancel_rate": 0.0684,
+    "gmv": 1850372,
+    "aov": 405.25
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Mumbai",
+    "orders": 11637,
+    "delivered_orders": 10707,
+    "cancel_rate": 0.0553,
+    "gmv": 6608903,
+    "aov": 617.25
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Nagpur",
+    "orders": 3265,
+    "delivered_orders": 2976,
+    "cancel_rate": 0.0631,
+    "gmv": 1387007,
+    "aov": 466.06
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Noida-1",
+    "orders": 2702,
+    "delivered_orders": 2461,
+    "cancel_rate": 0.0655,
+    "gmv": 1235925,
+    "aov": 502.2
+  },
+  {
+    "month": "2024-12-01",
+    "city": "Pune",
+    "orders": 22281,
+    "delivered_orders": 20453,
+    "cancel_rate": 0.0584,
+    "gmv": 10171415,
+    "aov": 497.31
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Ahmedabad",
+    "orders": 6836,
+    "delivered_orders": 6289,
+    "cancel_rate": 0.0547,
+    "gmv": 3449386,
+    "aov": 548.48
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Bangalore",
+    "orders": 34697,
+    "delivered_orders": 31726,
+    "cancel_rate": 0.0618,
+    "gmv": 16734700,
+    "aov": 527.48
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Bikaner",
+    "orders": 3890,
+    "delivered_orders": 3553,
+    "cancel_rate": 0.0622,
+    "gmv": 2080404,
+    "aov": 585.53
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Chandigarh",
+    "orders": 6762,
+    "delivered_orders": 6154,
+    "cancel_rate": 0.0631,
+    "gmv": 2723507,
+    "aov": 442.56
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Chennai",
+    "orders": 24700,
+    "delivered_orders": 22606,
+    "cancel_rate": 0.0598,
+    "gmv": 11267524,
+    "aov": 498.43
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Delhi",
+    "orders": 26620,
+    "delivered_orders": 24363,
+    "cancel_rate": 0.061,
+    "gmv": 12750874,
+    "aov": 523.37
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Gurgaon",
+    "orders": 4587,
+    "delivered_orders": 4156,
+    "cancel_rate": 0.068,
+    "gmv": 1969625,
+    "aov": 473.92
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Hyderabad",
+    "orders": 23235,
+    "delivered_orders": 21230,
+    "cancel_rate": 0.0626,
+    "gmv": 10763421,
+    "aov": 506.99
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Indore",
+    "orders": 3084,
+    "delivered_orders": 2814,
+    "cancel_rate": 0.0587,
+    "gmv": 1282036,
+    "aov": 455.59
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Kolkata",
+    "orders": 17478,
+    "delivered_orders": 15996,
+    "cancel_rate": 0.0605,
+    "gmv": 8480356,
+    "aov": 530.15
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Lucknow",
+    "orders": 5264,
+    "delivered_orders": 4764,
+    "cancel_rate": 0.068,
+    "gmv": 1984608,
+    "aov": 416.58
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Mumbai",
+    "orders": 12144,
+    "delivered_orders": 11105,
+    "cancel_rate": 0.059,
+    "gmv": 6801530,
+    "aov": 612.47
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Nagpur",
+    "orders": 3335,
+    "delivered_orders": 3048,
+    "cancel_rate": 0.0633,
+    "gmv": 1370578,
+    "aov": 449.66
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Noida-1",
+    "orders": 2870,
+    "delivered_orders": 2608,
+    "cancel_rate": 0.0672,
+    "gmv": 1306115,
+    "aov": 500.81
+  },
+  {
+    "month": "2025-01-01",
+    "city": "Pune",
+    "orders": 22928,
+    "delivered_orders": 21018,
+    "cancel_rate": 0.0581,
+    "gmv": 10538289,
+    "aov": 501.39
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Ahmedabad",
+    "orders": 6557,
+    "delivered_orders": 5988,
+    "cancel_rate": 0.0595,
+    "gmv": 3323026,
+    "aov": 554.95
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Bangalore",
+    "orders": 32257,
+    "delivered_orders": 29534,
+    "cancel_rate": 0.0595,
+    "gmv": 15683058,
+    "aov": 531.02
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Bikaner",
+    "orders": 3598,
+    "delivered_orders": 3321,
+    "cancel_rate": 0.0514,
+    "gmv": 1957405,
+    "aov": 589.4
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Chandigarh",
+    "orders": 6271,
+    "delivered_orders": 5749,
+    "cancel_rate": 0.0588,
+    "gmv": 2516883,
+    "aov": 437.79
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Chennai",
+    "orders": 23190,
+    "delivered_orders": 21228,
+    "cancel_rate": 0.0589,
+    "gmv": 10558261,
+    "aov": 497.37
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Delhi",
+    "orders": 24998,
+    "delivered_orders": 22834,
+    "cancel_rate": 0.0602,
+    "gmv": 11928939,
+    "aov": 522.42
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Gurgaon",
+    "orders": 4300,
+    "delivered_orders": 3913,
+    "cancel_rate": 0.0605,
+    "gmv": 1891237,
+    "aov": 483.32
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Hyderabad",
+    "orders": 21287,
+    "delivered_orders": 19469,
+    "cancel_rate": 0.0604,
+    "gmv": 9665365,
+    "aov": 496.45
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Indore",
+    "orders": 2925,
+    "delivered_orders": 2667,
+    "cancel_rate": 0.0636,
+    "gmv": 1152310,
+    "aov": 432.06
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Kolkata",
+    "orders": 16607,
+    "delivered_orders": 15136,
+    "cancel_rate": 0.0599,
+    "gmv": 8064919,
+    "aov": 532.83
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Lucknow",
+    "orders": 4824,
+    "delivered_orders": 4419,
+    "cancel_rate": 0.0587,
+    "gmv": 1823170,
+    "aov": 412.58
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Mumbai",
+    "orders": 11186,
+    "delivered_orders": 10216,
+    "cancel_rate": 0.0633,
+    "gmv": 6156784,
+    "aov": 602.66
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Nagpur",
+    "orders": 3102,
+    "delivered_orders": 2857,
+    "cancel_rate": 0.0538,
+    "gmv": 1258815,
+    "aov": 440.61
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Noida-1",
+    "orders": 2658,
+    "delivered_orders": 2440,
+    "cancel_rate": 0.0591,
+    "gmv": 1194743,
+    "aov": 489.65
+  },
+  {
+    "month": "2025-02-01",
+    "city": "Pune",
+    "orders": 21412,
+    "delivered_orders": 19581,
+    "cancel_rate": 0.0598,
+    "gmv": 9871657,
+    "aov": 504.14
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Ahmedabad",
+    "orders": 7418,
+    "delivered_orders": 6829,
+    "cancel_rate": 0.0562,
+    "gmv": 3766545,
+    "aov": 551.55
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Bangalore",
+    "orders": 37571,
+    "delivered_orders": 34457,
+    "cancel_rate": 0.0578,
+    "gmv": 18258821,
+    "aov": 529.9
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Bikaner",
+    "orders": 4225,
+    "delivered_orders": 3848,
+    "cancel_rate": 0.0625,
+    "gmv": 2222939,
+    "aov": 577.69
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Chandigarh",
+    "orders": 7241,
+    "delivered_orders": 6621,
+    "cancel_rate": 0.0602,
+    "gmv": 2930810,
+    "aov": 442.65
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Chennai",
+    "orders": 26372,
+    "delivered_orders": 24083,
+    "cancel_rate": 0.0631,
+    "gmv": 11912679,
+    "aov": 494.65
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Delhi",
+    "orders": 28625,
+    "delivered_orders": 26199,
+    "cancel_rate": 0.0589,
+    "gmv": 13702081,
+    "aov": 523.0
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Gurgaon",
+    "orders": 4998,
+    "delivered_orders": 4582,
+    "cancel_rate": 0.0602,
+    "gmv": 2147288,
+    "aov": 468.64
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Hyderabad",
+    "orders": 24535,
+    "delivered_orders": 22488,
+    "cancel_rate": 0.0582,
+    "gmv": 11266531,
+    "aov": 501.0
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Indore",
+    "orders": 3373,
+    "delivered_orders": 3110,
+    "cancel_rate": 0.0584,
+    "gmv": 1374962,
+    "aov": 442.11
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Kolkata",
+    "orders": 19099,
+    "delivered_orders": 17459,
+    "cancel_rate": 0.0612,
+    "gmv": 9310588,
+    "aov": 533.28
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Lucknow",
+    "orders": 5641,
+    "delivered_orders": 5165,
+    "cancel_rate": 0.0605,
+    "gmv": 2138150,
+    "aov": 413.97
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Mumbai",
+    "orders": 13137,
+    "delivered_orders": 12034,
+    "cancel_rate": 0.061,
+    "gmv": 7290891,
+    "aov": 605.86
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Nagpur",
+    "orders": 3632,
+    "delivered_orders": 3336,
+    "cancel_rate": 0.0606,
+    "gmv": 1509611,
+    "aov": 452.52
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Noida-1",
+    "orders": 3021,
+    "delivered_orders": 2770,
+    "cancel_rate": 0.0593,
+    "gmv": 1438877,
+    "aov": 519.45
+  },
+  {
+    "month": "2025-03-01",
+    "city": "Pune",
+    "orders": 25045,
+    "delivered_orders": 22908,
+    "cancel_rate": 0.0592,
+    "gmv": 11357626,
+    "aov": 495.79
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Ahmedabad",
+    "orders": 7020,
+    "delivered_orders": 6425,
+    "cancel_rate": 0.0608,
+    "gmv": 3639588,
+    "aov": 566.47
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Bangalore",
+    "orders": 36619,
+    "delivered_orders": 33554,
+    "cancel_rate": 0.0587,
+    "gmv": 17858545,
+    "aov": 532.23
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Bikaner",
+    "orders": 4011,
+    "delivered_orders": 3677,
+    "cancel_rate": 0.0623,
+    "gmv": 2204787,
+    "aov": 599.62
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Chandigarh",
+    "orders": 7184,
+    "delivered_orders": 6578,
+    "cancel_rate": 0.0585,
+    "gmv": 2901238,
+    "aov": 441.05
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Chennai",
+    "orders": 25505,
+    "delivered_orders": 23315,
+    "cancel_rate": 0.0606,
+    "gmv": 11612745,
+    "aov": 498.08
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Delhi",
+    "orders": 28249,
+    "delivered_orders": 25887,
+    "cancel_rate": 0.0582,
+    "gmv": 13496656,
+    "aov": 521.37
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Gurgaon",
+    "orders": 5006,
+    "delivered_orders": 4570,
+    "cancel_rate": 0.0609,
+    "gmv": 2178738,
+    "aov": 476.75
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Hyderabad",
+    "orders": 23985,
+    "delivered_orders": 21940,
+    "cancel_rate": 0.0607,
+    "gmv": 11086198,
+    "aov": 505.3
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Indore",
+    "orders": 3185,
+    "delivered_orders": 2918,
+    "cancel_rate": 0.0609,
+    "gmv": 1304329,
+    "aov": 446.99
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Kolkata",
+    "orders": 18267,
+    "delivered_orders": 16732,
+    "cancel_rate": 0.0582,
+    "gmv": 8844997,
+    "aov": 528.63
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Lucknow",
+    "orders": 5553,
+    "delivered_orders": 5070,
+    "cancel_rate": 0.0582,
+    "gmv": 2103735,
+    "aov": 414.94
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Mumbai",
+    "orders": 12636,
+    "delivered_orders": 11592,
+    "cancel_rate": 0.058,
+    "gmv": 7076169,
+    "aov": 610.44
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Nagpur",
+    "orders": 3510,
+    "delivered_orders": 3231,
+    "cancel_rate": 0.0584,
+    "gmv": 1500203,
+    "aov": 464.32
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Noida-1",
+    "orders": 3037,
+    "delivered_orders": 2777,
+    "cancel_rate": 0.0576,
+    "gmv": 1395039,
+    "aov": 502.35
+  },
+  {
+    "month": "2025-04-01",
+    "city": "Pune",
+    "orders": 24185,
+    "delivered_orders": 22143,
+    "cancel_rate": 0.0588,
+    "gmv": 10871643,
+    "aov": 490.97
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Ahmedabad",
+    "orders": 7902,
+    "delivered_orders": 7231,
+    "cancel_rate": 0.0619,
+    "gmv": 3959999,
+    "aov": 547.64
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Bangalore",
+    "orders": 39412,
+    "delivered_orders": 36031,
+    "cancel_rate": 0.0602,
+    "gmv": 19154493,
+    "aov": 531.61
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Bikaner",
+    "orders": 4393,
+    "delivered_orders": 4036,
+    "cancel_rate": 0.0537,
+    "gmv": 2383558,
+    "aov": 590.57
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Chandigarh",
+    "orders": 7579,
+    "delivered_orders": 6963,
+    "cancel_rate": 0.0563,
+    "gmv": 3079938,
+    "aov": 442.33
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Chennai",
+    "orders": 28045,
+    "delivered_orders": 25702,
+    "cancel_rate": 0.0592,
+    "gmv": 12826537,
+    "aov": 499.05
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Delhi",
+    "orders": 30457,
+    "delivered_orders": 27795,
+    "cancel_rate": 0.0619,
+    "gmv": 14584008,
+    "aov": 524.7
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Gurgaon",
+    "orders": 5403,
+    "delivered_orders": 4965,
+    "cancel_rate": 0.0583,
+    "gmv": 2398524,
+    "aov": 483.09
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Hyderabad",
+    "orders": 26253,
+    "delivered_orders": 24073,
+    "cancel_rate": 0.0593,
+    "gmv": 12016403,
+    "aov": 499.17
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Indore",
+    "orders": 3478,
+    "delivered_orders": 3213,
+    "cancel_rate": 0.0509,
+    "gmv": 1389116,
+    "aov": 432.34
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Kolkata",
+    "orders": 20080,
+    "delivered_orders": 18381,
+    "cancel_rate": 0.0591,
+    "gmv": 9701933,
+    "aov": 527.82
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Lucknow",
+    "orders": 5983,
+    "delivered_orders": 5489,
+    "cancel_rate": 0.0578,
+    "gmv": 2270975,
+    "aov": 413.73
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Mumbai",
+    "orders": 13851,
+    "delivered_orders": 12702,
+    "cancel_rate": 0.0583,
+    "gmv": 7884792,
+    "aov": 620.75
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Nagpur",
+    "orders": 3897,
+    "delivered_orders": 3562,
+    "cancel_rate": 0.0611,
+    "gmv": 1633153,
+    "aov": 458.49
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Noida-1",
+    "orders": 3196,
+    "delivered_orders": 2903,
+    "cancel_rate": 0.0594,
+    "gmv": 1463456,
+    "aov": 504.12
+  },
+  {
+    "month": "2025-05-01",
+    "city": "Pune",
+    "orders": 26351,
+    "delivered_orders": 24107,
+    "cancel_rate": 0.0608,
+    "gmv": 12070013,
+    "aov": 500.68
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Ahmedabad",
+    "orders": 7496,
+    "delivered_orders": 6864,
+    "cancel_rate": 0.0595,
+    "gmv": 3875474,
+    "aov": 564.61
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Bangalore",
+    "orders": 38700,
+    "delivered_orders": 35459,
+    "cancel_rate": 0.0583,
+    "gmv": 18843355,
+    "aov": 531.41
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Bikaner",
+    "orders": 4515,
+    "delivered_orders": 4116,
+    "cancel_rate": 0.0607,
+    "gmv": 2484098,
+    "aov": 603.52
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Chandigarh",
+    "orders": 7619,
+    "delivered_orders": 7022,
+    "cancel_rate": 0.0546,
+    "gmv": 3072360,
+    "aov": 437.53
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Chennai",
+    "orders": 27471,
+    "delivered_orders": 25133,
+    "cancel_rate": 0.0606,
+    "gmv": 12469929,
+    "aov": 496.16
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Delhi",
+    "orders": 30299,
+    "delivered_orders": 27664,
+    "cancel_rate": 0.0621,
+    "gmv": 14620300,
+    "aov": 528.5
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Gurgaon",
+    "orders": 5311,
+    "delivered_orders": 4847,
+    "cancel_rate": 0.0586,
+    "gmv": 2293738,
+    "aov": 473.23
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Hyderabad",
+    "orders": 25876,
+    "delivered_orders": 23563,
+    "cancel_rate": 0.0634,
+    "gmv": 11806513,
+    "aov": 501.06
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Indore",
+    "orders": 3510,
+    "delivered_orders": 3208,
+    "cancel_rate": 0.0604,
+    "gmv": 1384992,
+    "aov": 431.73
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Kolkata",
+    "orders": 19679,
+    "delivered_orders": 18051,
+    "cancel_rate": 0.0588,
+    "gmv": 9499130,
+    "aov": 526.24
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Lucknow",
+    "orders": 5779,
+    "delivered_orders": 5292,
+    "cancel_rate": 0.0594,
+    "gmv": 2204954,
+    "aov": 416.66
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Mumbai",
+    "orders": 13840,
+    "delivered_orders": 12625,
+    "cancel_rate": 0.0608,
+    "gmv": 7850737,
+    "aov": 621.84
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Nagpur",
+    "orders": 3777,
+    "delivered_orders": 3453,
+    "cancel_rate": 0.0585,
+    "gmv": 1593058,
+    "aov": 461.35
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Noida-1",
+    "orders": 3143,
+    "delivered_orders": 2893,
+    "cancel_rate": 0.0535,
+    "gmv": 1443822,
+    "aov": 499.07
+  },
+  {
+    "month": "2025-06-01",
+    "city": "Pune",
+    "orders": 26009,
+    "delivered_orders": 23816,
+    "cancel_rate": 0.0597,
+    "gmv": 11912887,
+    "aov": 500.21
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Ahmedabad",
+    "orders": 8048,
+    "delivered_orders": 7337,
+    "cancel_rate": 0.0599,
+    "gmv": 4075815,
+    "aov": 555.52
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Bangalore",
+    "orders": 40970,
+    "delivered_orders": 37481,
+    "cancel_rate": 0.0608,
+    "gmv": 19820585,
+    "aov": 528.82
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Bikaner",
+    "orders": 4415,
+    "delivered_orders": 4050,
+    "cancel_rate": 0.0571,
+    "gmv": 2380206,
+    "aov": 587.71
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Chandigarh",
+    "orders": 7845,
+    "delivered_orders": 7190,
+    "cancel_rate": 0.0584,
+    "gmv": 3159266,
+    "aov": 439.4
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Chennai",
+    "orders": 28775,
+    "delivered_orders": 26349,
+    "cancel_rate": 0.0589,
+    "gmv": 13149824,
+    "aov": 499.06
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Delhi",
+    "orders": 31573,
+    "delivered_orders": 28904,
+    "cancel_rate": 0.0589,
+    "gmv": 15065357,
+    "aov": 521.22
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Gurgaon",
+    "orders": 5597,
+    "delivered_orders": 5136,
+    "cancel_rate": 0.0563,
+    "gmv": 2420602,
+    "aov": 471.3
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Hyderabad",
+    "orders": 27315,
+    "delivered_orders": 24993,
+    "cancel_rate": 0.0588,
+    "gmv": 12558834,
+    "aov": 502.49
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Indore",
+    "orders": 3565,
+    "delivered_orders": 3217,
+    "cancel_rate": 0.0721,
+    "gmv": 1394217,
+    "aov": 433.39
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Kolkata",
+    "orders": 20719,
+    "delivered_orders": 18946,
+    "cancel_rate": 0.0593,
+    "gmv": 10050309,
+    "aov": 530.47
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Lucknow",
+    "orders": 6004,
+    "delivered_orders": 5503,
+    "cancel_rate": 0.0573,
+    "gmv": 2258614,
+    "aov": 410.43
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Mumbai",
+    "orders": 14267,
+    "delivered_orders": 13007,
+    "cancel_rate": 0.0644,
+    "gmv": 7926577,
+    "aov": 609.41
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Nagpur",
+    "orders": 3919,
+    "delivered_orders": 3560,
+    "cancel_rate": 0.0671,
+    "gmv": 1654358,
+    "aov": 464.71
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Noida-1",
+    "orders": 3399,
+    "delivered_orders": 3132,
+    "cancel_rate": 0.0527,
+    "gmv": 1556891,
+    "aov": 497.09
+  },
+  {
+    "month": "2025-07-01",
+    "city": "Pune",
+    "orders": 27198,
+    "delivered_orders": 24919,
+    "cancel_rate": 0.0592,
+    "gmv": 12399581,
+    "aov": 497.6
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Ahmedabad",
+    "orders": 8559,
+    "delivered_orders": 7812,
+    "cancel_rate": 0.0602,
+    "gmv": 4304291,
+    "aov": 550.98
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Bangalore",
+    "orders": 43517,
+    "delivered_orders": 39856,
+    "cancel_rate": 0.0582,
+    "gmv": 20984869,
+    "aov": 526.52
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Bikaner",
+    "orders": 4812,
+    "delivered_orders": 4415,
+    "cancel_rate": 0.0588,
+    "gmv": 2594593,
+    "aov": 587.68
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Chandigarh",
+    "orders": 8573,
+    "delivered_orders": 7811,
+    "cancel_rate": 0.0629,
+    "gmv": 3468879,
+    "aov": 444.1
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Chennai",
+    "orders": 30537,
+    "delivered_orders": 27902,
+    "cancel_rate": 0.0608,
+    "gmv": 13902828,
+    "aov": 498.27
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Delhi",
+    "orders": 33792,
+    "delivered_orders": 30954,
+    "cancel_rate": 0.0595,
+    "gmv": 16153946,
+    "aov": 521.87
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Gurgaon",
+    "orders": 5874,
+    "delivered_orders": 5391,
+    "cancel_rate": 0.0575,
+    "gmv": 2541560,
+    "aov": 471.45
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Hyderabad",
+    "orders": 28905,
+    "delivered_orders": 26481,
+    "cancel_rate": 0.0588,
+    "gmv": 13273510,
+    "aov": 501.25
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Indore",
+    "orders": 3918,
+    "delivered_orders": 3581,
+    "cancel_rate": 0.0641,
+    "gmv": 1560436,
+    "aov": 435.75
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Kolkata",
+    "orders": 21981,
+    "delivered_orders": 20100,
+    "cancel_rate": 0.0615,
+    "gmv": 10612629,
+    "aov": 527.99
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Lucknow",
+    "orders": 6478,
+    "delivered_orders": 5929,
+    "cancel_rate": 0.0584,
+    "gmv": 2443836,
+    "aov": 412.18
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Mumbai",
+    "orders": 15188,
+    "delivered_orders": 13847,
+    "cancel_rate": 0.0608,
+    "gmv": 8527645,
+    "aov": 615.85
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Nagpur",
+    "orders": 4241,
+    "delivered_orders": 3878,
+    "cancel_rate": 0.0627,
+    "gmv": 1762984,
+    "aov": 454.61
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Noida-1",
+    "orders": 3470,
+    "delivered_orders": 3187,
+    "cancel_rate": 0.0527,
+    "gmv": 1570254,
+    "aov": 492.71
+  },
+  {
+    "month": "2025-08-01",
+    "city": "Pune",
+    "orders": 29132,
+    "delivered_orders": 26598,
+    "cancel_rate": 0.0594,
+    "gmv": 13342275,
+    "aov": 501.63
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Ahmedabad",
+    "orders": 8166,
+    "delivered_orders": 7511,
+    "cancel_rate": 0.0565,
+    "gmv": 4147658,
+    "aov": 552.21
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Bangalore",
+    "orders": 41952,
+    "delivered_orders": 38336,
+    "cancel_rate": 0.0608,
+    "gmv": 20133675,
+    "aov": 525.19
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Bikaner",
+    "orders": 4593,
+    "delivered_orders": 4213,
+    "cancel_rate": 0.059,
+    "gmv": 2445895,
+    "aov": 580.56
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Chandigarh",
+    "orders": 8201,
+    "delivered_orders": 7518,
+    "cancel_rate": 0.0562,
+    "gmv": 3342733,
+    "aov": 444.63
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Chennai",
+    "orders": 29247,
+    "delivered_orders": 26766,
+    "cancel_rate": 0.0599,
+    "gmv": 13411357,
+    "aov": 501.06
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Delhi",
+    "orders": 32203,
+    "delivered_orders": 29429,
+    "cancel_rate": 0.0601,
+    "gmv": 15467490,
+    "aov": 525.59
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Gurgaon",
+    "orders": 5715,
+    "delivered_orders": 5236,
+    "cancel_rate": 0.0597,
+    "gmv": 2506085,
+    "aov": 478.63
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Hyderabad",
+    "orders": 27827,
+    "delivered_orders": 25494,
+    "cancel_rate": 0.0586,
+    "gmv": 12671862,
+    "aov": 497.05
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Indore",
+    "orders": 3686,
+    "delivered_orders": 3364,
+    "cancel_rate": 0.0624,
+    "gmv": 1453660,
+    "aov": 432.12
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Kolkata",
+    "orders": 21472,
+    "delivered_orders": 19646,
+    "cancel_rate": 0.0595,
+    "gmv": 10388916,
+    "aov": 528.81
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Lucknow",
+    "orders": 6353,
+    "delivered_orders": 5829,
+    "cancel_rate": 0.06,
+    "gmv": 2417902,
+    "aov": 414.81
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Mumbai",
+    "orders": 14575,
+    "delivered_orders": 13372,
+    "cancel_rate": 0.0562,
+    "gmv": 8187507,
+    "aov": 612.29
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Nagpur",
+    "orders": 4055,
+    "delivered_orders": 3716,
+    "cancel_rate": 0.0587,
+    "gmv": 1715277,
+    "aov": 461.59
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Noida-1",
+    "orders": 3446,
+    "delivered_orders": 3158,
+    "cancel_rate": 0.0601,
+    "gmv": 1632816,
+    "aov": 517.04
+  },
+  {
+    "month": "2025-09-01",
+    "city": "Pune",
+    "orders": 27830,
+    "delivered_orders": 25462,
+    "cancel_rate": 0.0603,
+    "gmv": 12652822,
+    "aov": 496.93
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Ahmedabad",
+    "orders": 8846,
+    "delivered_orders": 8094,
+    "cancel_rate": 0.0603,
+    "gmv": 4528206,
+    "aov": 559.45
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Bangalore",
+    "orders": 44401,
+    "delivered_orders": 40583,
+    "cancel_rate": 0.0621,
+    "gmv": 21398532,
+    "aov": 527.28
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Bikaner",
+    "orders": 4896,
+    "delivered_orders": 4443,
+    "cancel_rate": 0.069,
+    "gmv": 2683583,
+    "aov": 604.0
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Chandigarh",
+    "orders": 8704,
+    "delivered_orders": 8026,
+    "cancel_rate": 0.057,
+    "gmv": 3536598,
+    "aov": 440.64
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Chennai",
+    "orders": 31452,
+    "delivered_orders": 28772,
+    "cancel_rate": 0.0601,
+    "gmv": 14483827,
+    "aov": 503.4
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Delhi",
+    "orders": 33890,
+    "delivered_orders": 31020,
+    "cancel_rate": 0.0605,
+    "gmv": 16274752,
+    "aov": 524.65
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Gurgaon",
+    "orders": 6012,
+    "delivered_orders": 5524,
+    "cancel_rate": 0.0547,
+    "gmv": 2633625,
+    "aov": 476.76
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Hyderabad",
+    "orders": 29452,
+    "delivered_orders": 26942,
+    "cancel_rate": 0.0602,
+    "gmv": 13707126,
+    "aov": 508.76
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Indore",
+    "orders": 4012,
+    "delivered_orders": 3665,
+    "cancel_rate": 0.0611,
+    "gmv": 1569718,
+    "aov": 428.3
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Kolkata",
+    "orders": 22795,
+    "delivered_orders": 20890,
+    "cancel_rate": 0.0576,
+    "gmv": 10966920,
+    "aov": 524.98
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Lucknow",
+    "orders": 6659,
+    "delivered_orders": 6124,
+    "cancel_rate": 0.0574,
+    "gmv": 2499003,
+    "aov": 408.07
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Mumbai",
+    "orders": 15729,
+    "delivered_orders": 14383,
+    "cancel_rate": 0.062,
+    "gmv": 8747567,
+    "aov": 608.19
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Nagpur",
+    "orders": 4306,
+    "delivered_orders": 3952,
+    "cancel_rate": 0.0564,
+    "gmv": 1830496,
+    "aov": 463.18
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Noida-1",
+    "orders": 3698,
+    "delivered_orders": 3387,
+    "cancel_rate": 0.0573,
+    "gmv": 1726884,
+    "aov": 509.86
+  },
+  {
+    "month": "2025-10-01",
+    "city": "Pune",
+    "orders": 29480,
+    "delivered_orders": 26958,
+    "cancel_rate": 0.0607,
+    "gmv": 13462891,
+    "aov": 499.4
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Ahmedabad",
+    "orders": 8945,
+    "delivered_orders": 8181,
+    "cancel_rate": 0.0605,
+    "gmv": 4587991,
+    "aov": 560.81
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Bangalore",
+    "orders": 45213,
+    "delivered_orders": 41313,
+    "cancel_rate": 0.0604,
+    "gmv": 21808793,
+    "aov": 527.89
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Bikaner",
+    "orders": 5041,
+    "delivered_orders": 4627,
+    "cancel_rate": 0.0601,
+    "gmv": 2776883,
+    "aov": 600.15
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Chandigarh",
+    "orders": 8686,
+    "delivered_orders": 7953,
+    "cancel_rate": 0.0599,
+    "gmv": 3506530,
+    "aov": 440.91
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Chennai",
+    "orders": 31916,
+    "delivered_orders": 29130,
+    "cancel_rate": 0.0614,
+    "gmv": 14455088,
+    "aov": 496.23
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Delhi",
+    "orders": 34818,
+    "delivered_orders": 31809,
+    "cancel_rate": 0.0615,
+    "gmv": 16705115,
+    "aov": 525.17
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Gurgaon",
+    "orders": 6033,
+    "delivered_orders": 5511,
+    "cancel_rate": 0.057,
+    "gmv": 2632829,
+    "aov": 477.74
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Hyderabad",
+    "orders": 29858,
+    "delivered_orders": 27239,
+    "cancel_rate": 0.0614,
+    "gmv": 13685896,
+    "aov": 502.44
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Indore",
+    "orders": 3980,
+    "delivered_orders": 3658,
+    "cancel_rate": 0.057,
+    "gmv": 1595645,
+    "aov": 436.21
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Kolkata",
+    "orders": 22824,
+    "delivered_orders": 20869,
+    "cancel_rate": 0.0604,
+    "gmv": 10955976,
+    "aov": 524.99
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Lucknow",
+    "orders": 6741,
+    "delivered_orders": 6101,
+    "cancel_rate": 0.066,
+    "gmv": 2527840,
+    "aov": 414.33
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Mumbai",
+    "orders": 15779,
+    "delivered_orders": 14408,
+    "cancel_rate": 0.0603,
+    "gmv": 8800743,
+    "aov": 610.82
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Nagpur",
+    "orders": 4453,
+    "delivered_orders": 4094,
+    "cancel_rate": 0.0564,
+    "gmv": 1873555,
+    "aov": 457.63
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Noida-1",
+    "orders": 3577,
+    "delivered_orders": 3288,
+    "cancel_rate": 0.0568,
+    "gmv": 1702931,
+    "aov": 517.92
+  },
+  {
+    "month": "2025-11-01",
+    "city": "Pune",
+    "orders": 29847,
+    "delivered_orders": 27309,
+    "cancel_rate": 0.0591,
+    "gmv": 13654956,
+    "aov": 500.02
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Ahmedabad",
+    "orders": 9095,
+    "delivered_orders": 8340,
+    "cancel_rate": 0.0573,
+    "gmv": 4653744,
+    "aov": 558.0
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Bangalore",
+    "orders": 46317,
+    "delivered_orders": 42413,
+    "cancel_rate": 0.0596,
+    "gmv": 22661832,
+    "aov": 534.31
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Bikaner",
+    "orders": 5182,
+    "delivered_orders": 4758,
+    "cancel_rate": 0.0569,
+    "gmv": 2816646,
+    "aov": 591.98
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Chandigarh",
+    "orders": 9089,
+    "delivered_orders": 8344,
+    "cancel_rate": 0.0573,
+    "gmv": 3701599,
+    "aov": 443.62
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Chennai",
+    "orders": 32731,
+    "delivered_orders": 29977,
+    "cancel_rate": 0.0583,
+    "gmv": 15004644,
+    "aov": 500.54
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Delhi",
+    "orders": 35536,
+    "delivered_orders": 32526,
+    "cancel_rate": 0.0603,
+    "gmv": 16953355,
+    "aov": 521.22
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Gurgaon",
+    "orders": 6288,
+    "delivered_orders": 5767,
+    "cancel_rate": 0.058,
+    "gmv": 2761282,
+    "aov": 478.81
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Hyderabad",
+    "orders": 30594,
+    "delivered_orders": 27964,
+    "cancel_rate": 0.0612,
+    "gmv": 14022827,
+    "aov": 501.46
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Indore",
+    "orders": 4082,
+    "delivered_orders": 3749,
+    "cancel_rate": 0.0581,
+    "gmv": 1651867,
+    "aov": 440.62
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Kolkata",
+    "orders": 23601,
+    "delivered_orders": 21554,
+    "cancel_rate": 0.0604,
+    "gmv": 11340967,
+    "aov": 526.17
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Lucknow",
+    "orders": 7155,
+    "delivered_orders": 6541,
+    "cancel_rate": 0.0577,
+    "gmv": 2674484,
+    "aov": 408.88
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Mumbai",
+    "orders": 15972,
+    "delivered_orders": 14666,
+    "cancel_rate": 0.0576,
+    "gmv": 9090766,
+    "aov": 619.85
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Nagpur",
+    "orders": 4435,
+    "delivered_orders": 4069,
+    "cancel_rate": 0.0573,
+    "gmv": 1863712,
+    "aov": 458.03
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Noida-1",
+    "orders": 3869,
+    "delivered_orders": 3537,
+    "cancel_rate": 0.061,
+    "gmv": 1790850,
+    "aov": 506.32
+  },
+  {
+    "month": "2025-12-01",
+    "city": "Pune",
+    "orders": 30950,
+    "delivered_orders": 28350,
+    "cancel_rate": 0.0597,
+    "gmv": 14087970,
+    "aov": 496.93
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Ahmedabad",
+    "orders": 9642,
+    "delivered_orders": 8811,
+    "cancel_rate": 0.0602,
+    "gmv": 4832104,
+    "aov": 548.42
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Bangalore",
+    "orders": 49012,
+    "delivered_orders": 44847,
+    "cancel_rate": 0.0598,
+    "gmv": 23922281,
+    "aov": 533.42
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Bikaner",
+    "orders": 5474,
+    "delivered_orders": 5019,
+    "cancel_rate": 0.0579,
+    "gmv": 2987472,
+    "aov": 595.23
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Chandigarh",
+    "orders": 9547,
+    "delivered_orders": 8737,
+    "cancel_rate": 0.0583,
+    "gmv": 3879549,
+    "aov": 444.04
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Chennai",
+    "orders": 34172,
+    "delivered_orders": 31217,
+    "cancel_rate": 0.061,
+    "gmv": 15647220,
+    "aov": 501.24
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Delhi",
+    "orders": 37457,
+    "delivered_orders": 34307,
+    "cancel_rate": 0.059,
+    "gmv": 17982910,
+    "aov": 524.18
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Gurgaon",
+    "orders": 6682,
+    "delivered_orders": 6135,
+    "cancel_rate": 0.0552,
+    "gmv": 3005062,
+    "aov": 489.82
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Hyderabad",
+    "orders": 32295,
+    "delivered_orders": 29576,
+    "cancel_rate": 0.0596,
+    "gmv": 14902555,
+    "aov": 503.87
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Indore",
+    "orders": 4465,
+    "delivered_orders": 4061,
+    "cancel_rate": 0.0645,
+    "gmv": 1761097,
+    "aov": 433.66
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Kolkata",
+    "orders": 24675,
+    "delivered_orders": 22557,
+    "cancel_rate": 0.0609,
+    "gmv": 11964197,
+    "aov": 530.4
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Lucknow",
+    "orders": 7346,
+    "delivered_orders": 6741,
+    "cancel_rate": 0.0606,
+    "gmv": 2785897,
+    "aov": 413.28
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Mumbai",
+    "orders": 17052,
+    "delivered_orders": 15554,
+    "cancel_rate": 0.0614,
+    "gmv": 9508298,
+    "aov": 611.31
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Nagpur",
+    "orders": 4722,
+    "delivered_orders": 4281,
+    "cancel_rate": 0.0709,
+    "gmv": 1929707,
+    "aov": 450.76
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Noida-1",
+    "orders": 4094,
+    "delivered_orders": 3763,
+    "cancel_rate": 0.0567,
+    "gmv": 1904651,
+    "aov": 506.15
+  },
+  {
+    "month": "2026-01-01",
+    "city": "Pune",
+    "orders": 32408,
+    "delivered_orders": 29641,
+    "cancel_rate": 0.06,
+    "gmv": 14819046,
+    "aov": 499.95
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Ahmedabad",
+    "orders": 8808,
+    "delivered_orders": 8059,
+    "cancel_rate": 0.0599,
+    "gmv": 4473853,
+    "aov": 555.14
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Bangalore",
+    "orders": 44751,
+    "delivered_orders": 40907,
+    "cancel_rate": 0.0598,
+    "gmv": 21710504,
+    "aov": 530.73
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Bikaner",
+    "orders": 4979,
+    "delivered_orders": 4537,
+    "cancel_rate": 0.0649,
+    "gmv": 2598443,
+    "aov": 572.72
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Chandigarh",
+    "orders": 8722,
+    "delivered_orders": 7996,
+    "cancel_rate": 0.0578,
+    "gmv": 3565820,
+    "aov": 445.95
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Chennai",
+    "orders": 31288,
+    "delivered_orders": 28784,
+    "cancel_rate": 0.0568,
+    "gmv": 14352790,
+    "aov": 498.64
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Delhi",
+    "orders": 34372,
+    "delivered_orders": 31444,
+    "cancel_rate": 0.0605,
+    "gmv": 16374917,
+    "aov": 520.76
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Gurgaon",
+    "orders": 6121,
+    "delivered_orders": 5628,
+    "cancel_rate": 0.0587,
+    "gmv": 2723317,
+    "aov": 483.89
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Hyderabad",
+    "orders": 29192,
+    "delivered_orders": 26756,
+    "cancel_rate": 0.0594,
+    "gmv": 13463242,
+    "aov": 503.19
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Indore",
+    "orders": 4036,
+    "delivered_orders": 3691,
+    "cancel_rate": 0.0619,
+    "gmv": 1562561,
+    "aov": 423.34
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Kolkata",
+    "orders": 22343,
+    "delivered_orders": 20393,
+    "cancel_rate": 0.061,
+    "gmv": 10800546,
+    "aov": 529.62
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Lucknow",
+    "orders": 6673,
+    "delivered_orders": 6094,
+    "cancel_rate": 0.0611,
+    "gmv": 2513759,
+    "aov": 412.5
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Mumbai",
+    "orders": 15552,
+    "delivered_orders": 14280,
+    "cancel_rate": 0.0574,
+    "gmv": 8767636,
+    "aov": 613.98
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Nagpur",
+    "orders": 4355,
+    "delivered_orders": 3989,
+    "cancel_rate": 0.0574,
+    "gmv": 1885887,
+    "aov": 472.77
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Noida-1",
+    "orders": 3659,
+    "delivered_orders": 3337,
+    "cancel_rate": 0.0566,
+    "gmv": 1661561,
+    "aov": 497.92
+  },
+  {
+    "month": "2026-02-01",
+    "city": "Pune",
+    "orders": 29355,
+    "delivered_orders": 26950,
+    "cancel_rate": 0.0578,
+    "gmv": 13361999,
+    "aov": 495.81
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Ahmedabad",
+    "orders": 9707,
+    "delivered_orders": 8899,
+    "cancel_rate": 0.0585,
+    "gmv": 4875779,
+    "aov": 547.9
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Bangalore",
+    "orders": 50617,
+    "delivered_orders": 46396,
+    "cancel_rate": 0.0581,
+    "gmv": 24587018,
+    "aov": 529.94
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Bikaner",
+    "orders": 5536,
+    "delivered_orders": 5011,
+    "cancel_rate": 0.0685,
+    "gmv": 2937924,
+    "aov": 586.29
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Chandigarh",
+    "orders": 9789,
+    "delivered_orders": 8973,
+    "cancel_rate": 0.0607,
+    "gmv": 3953152,
+    "aov": 440.56
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Chennai",
+    "orders": 35287,
+    "delivered_orders": 32307,
+    "cancel_rate": 0.0595,
+    "gmv": 16088434,
+    "aov": 497.99
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Delhi",
+    "orders": 38558,
+    "delivered_orders": 35226,
+    "cancel_rate": 0.0615,
+    "gmv": 18340280,
+    "aov": 520.65
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Gurgaon",
+    "orders": 6650,
+    "delivered_orders": 6005,
+    "cancel_rate": 0.0692,
+    "gmv": 2915101,
+    "aov": 485.45
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Hyderabad",
+    "orders": 33251,
+    "delivered_orders": 30421,
+    "cancel_rate": 0.0607,
+    "gmv": 15261918,
+    "aov": 501.69
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Indore",
+    "orders": 4405,
+    "delivered_orders": 4025,
+    "cancel_rate": 0.0606,
+    "gmv": 1755330,
+    "aov": 436.11
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Kolkata",
+    "orders": 25322,
+    "delivered_orders": 23138,
+    "cancel_rate": 0.061,
+    "gmv": 12196295,
+    "aov": 527.11
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Lucknow",
+    "orders": 7546,
+    "delivered_orders": 6875,
+    "cancel_rate": 0.0629,
+    "gmv": 2826804,
+    "aov": 411.17
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Mumbai",
+    "orders": 17533,
+    "delivered_orders": 16120,
+    "cancel_rate": 0.0567,
+    "gmv": 9712049,
+    "aov": 602.48
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Nagpur",
+    "orders": 4965,
+    "delivered_orders": 4563,
+    "cancel_rate": 0.058,
+    "gmv": 2098796,
+    "aov": 459.96
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Noida-1",
+    "orders": 4142,
+    "delivered_orders": 3792,
+    "cancel_rate": 0.0579,
+    "gmv": 1907340,
+    "aov": 502.99
+  },
+  {
+    "month": "2026-03-01",
+    "city": "Pune",
+    "orders": 33152,
+    "delivered_orders": 30286,
+    "cancel_rate": 0.0622,
+    "gmv": 15172865,
+    "aov": 500.99
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Ahmedabad",
+    "orders": 9819,
+    "delivered_orders": 9031,
+    "cancel_rate": 0.0551,
+    "gmv": 4922317,
+    "aov": 545.05
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Bangalore",
+    "orders": 49548,
+    "delivered_orders": 45252,
+    "cancel_rate": 0.0613,
+    "gmv": 24239810,
+    "aov": 535.66
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Bikaner",
+    "orders": 5491,
+    "delivered_orders": 4964,
+    "cancel_rate": 0.0654,
+    "gmv": 2939117,
+    "aov": 592.09
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Chandigarh",
+    "orders": 9595,
+    "delivered_orders": 8751,
+    "cancel_rate": 0.0625,
+    "gmv": 3879832,
+    "aov": 443.36
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Chennai",
+    "orders": 34908,
+    "delivered_orders": 31952,
+    "cancel_rate": 0.0603,
+    "gmv": 15834891,
+    "aov": 495.58
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Delhi",
+    "orders": 38360,
+    "delivered_orders": 35101,
+    "cancel_rate": 0.0599,
+    "gmv": 18387886,
+    "aov": 523.86
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Gurgaon",
+    "orders": 6653,
+    "delivered_orders": 6082,
+    "cancel_rate": 0.0601,
+    "gmv": 2970297,
+    "aov": 488.38
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Hyderabad",
+    "orders": 32676,
+    "delivered_orders": 29904,
+    "cancel_rate": 0.0606,
+    "gmv": 14904235,
+    "aov": 498.4
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Indore",
+    "orders": 4348,
+    "delivered_orders": 3987,
+    "cancel_rate": 0.057,
+    "gmv": 1737642,
+    "aov": 435.83
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Kolkata",
+    "orders": 24915,
+    "delivered_orders": 22892,
+    "cancel_rate": 0.0558,
+    "gmv": 12139350,
+    "aov": 530.29
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Lucknow",
+    "orders": 7368,
+    "delivered_orders": 6716,
+    "cancel_rate": 0.0643,
+    "gmv": 2749202,
+    "aov": 409.35
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Mumbai",
+    "orders": 17051,
+    "delivered_orders": 15583,
+    "cancel_rate": 0.0591,
+    "gmv": 9573770,
+    "aov": 614.37
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Nagpur",
+    "orders": 4765,
+    "delivered_orders": 4377,
+    "cancel_rate": 0.0537,
+    "gmv": 2005506,
+    "aov": 458.19
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Noida-1",
+    "orders": 4090,
+    "delivered_orders": 3746,
+    "cancel_rate": 0.0587,
+    "gmv": 1888699,
+    "aov": 504.19
+  },
+  {
+    "month": "2026-04-01",
+    "city": "Pune",
+    "orders": 32800,
+    "delivered_orders": 30035,
+    "cancel_rate": 0.0603,
+    "gmv": 15079543,
+    "aov": 502.07
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Ahmedabad",
+    "orders": 10524,
+    "delivered_orders": 9657,
+    "cancel_rate": 0.0585,
+    "gmv": 5411182,
+    "aov": 560.34
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Bangalore",
+    "orders": 53506,
+    "delivered_orders": 49020,
+    "cancel_rate": 0.0599,
+    "gmv": 26008044,
+    "aov": 530.56
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Bikaner",
+    "orders": 5950,
+    "delivered_orders": 5434,
+    "cancel_rate": 0.0578,
+    "gmv": 3212009,
+    "aov": 591.09
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Chandigarh",
+    "orders": 10563,
+    "delivered_orders": 9674,
+    "cancel_rate": 0.0596,
+    "gmv": 4262010,
+    "aov": 440.56
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Chennai",
+    "orders": 37482,
+    "delivered_orders": 34291,
+    "cancel_rate": 0.061,
+    "gmv": 17225624,
+    "aov": 502.34
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Delhi",
+    "orders": 41211,
+    "delivered_orders": 37663,
+    "cancel_rate": 0.06,
+    "gmv": 19748062,
+    "aov": 524.34
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Gurgaon",
+    "orders": 7404,
+    "delivered_orders": 6765,
+    "cancel_rate": 0.0635,
+    "gmv": 3245800,
+    "aov": 479.79
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Hyderabad",
+    "orders": 35619,
+    "delivered_orders": 32505,
+    "cancel_rate": 0.0622,
+    "gmv": 16307332,
+    "aov": 501.69
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Indore",
+    "orders": 4819,
+    "delivered_orders": 4394,
+    "cancel_rate": 0.0623,
+    "gmv": 1913592,
+    "aov": 435.5
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Kolkata",
+    "orders": 27196,
+    "delivered_orders": 24859,
+    "cancel_rate": 0.0606,
+    "gmv": 13160634,
+    "aov": 529.41
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Lucknow",
+    "orders": 8012,
+    "delivered_orders": 7321,
+    "cancel_rate": 0.0623,
+    "gmv": 2999023,
+    "aov": 409.65
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Mumbai",
+    "orders": 18639,
+    "delivered_orders": 17039,
+    "cancel_rate": 0.0599,
+    "gmv": 10431941,
+    "aov": 612.24
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Nagpur",
+    "orders": 5203,
+    "delivered_orders": 4761,
+    "cancel_rate": 0.0605,
+    "gmv": 2178476,
+    "aov": 457.57
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Noida-1",
+    "orders": 4392,
+    "delivered_orders": 4014,
+    "cancel_rate": 0.0583,
+    "gmv": 2029899,
+    "aov": 505.7
+  },
+  {
+    "month": "2026-05-01",
+    "city": "Pune",
+    "orders": 35867,
+    "delivered_orders": 32764,
+    "cancel_rate": 0.0615,
+    "gmv": 16343294,
+    "aov": 498.82
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Ahmedabad",
+    "orders": 10042,
+    "delivered_orders": 9187,
+    "cancel_rate": 0.0595,
+    "gmv": 5115509,
+    "aov": 556.82
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Bangalore",
+    "orders": 51338,
+    "delivered_orders": 46848,
+    "cancel_rate": 0.0629,
+    "gmv": 24948268,
+    "aov": 532.54
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Bikaner",
+    "orders": 5715,
+    "delivered_orders": 5215,
+    "cancel_rate": 0.0598,
+    "gmv": 3057280,
+    "aov": 586.25
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Chandigarh",
+    "orders": 9962,
+    "delivered_orders": 9091,
+    "cancel_rate": 0.0617,
+    "gmv": 3990820,
+    "aov": 438.99
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Chennai",
+    "orders": 36239,
+    "delivered_orders": 33110,
+    "cancel_rate": 0.0613,
+    "gmv": 16604868,
+    "aov": 501.51
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Delhi",
+    "orders": 39154,
+    "delivered_orders": 35709,
+    "cancel_rate": 0.0622,
+    "gmv": 18779030,
+    "aov": 525.89
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Gurgaon",
+    "orders": 7047,
+    "delivered_orders": 6471,
+    "cancel_rate": 0.057,
+    "gmv": 3098781,
+    "aov": 478.87
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Hyderabad",
+    "orders": 34393,
+    "delivered_orders": 31562,
+    "cancel_rate": 0.0588,
+    "gmv": 15752670,
+    "aov": 499.1
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Indore",
+    "orders": 4583,
+    "delivered_orders": 4201,
+    "cancel_rate": 0.0607,
+    "gmv": 1825818,
+    "aov": 434.62
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Kolkata",
+    "orders": 26199,
+    "delivered_orders": 24027,
+    "cancel_rate": 0.059,
+    "gmv": 12680946,
+    "aov": 527.78
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Lucknow",
+    "orders": 7945,
+    "delivered_orders": 7300,
+    "cancel_rate": 0.0565,
+    "gmv": 2956358,
+    "aov": 404.98
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Mumbai",
+    "orders": 17749,
+    "delivered_orders": 16261,
+    "cancel_rate": 0.0585,
+    "gmv": 9856091,
+    "aov": 606.12
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Nagpur",
+    "orders": 4987,
+    "delivered_orders": 4592,
+    "cancel_rate": 0.0588,
+    "gmv": 2088436,
+    "aov": 454.8
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Noida-1",
+    "orders": 4332,
+    "delivered_orders": 4002,
+    "cancel_rate": 0.0559,
+    "gmv": 2021363,
+    "aov": 505.09
+  },
+  {
+    "month": "2026-06-01",
+    "city": "Pune",
+    "orders": 34159,
+    "delivered_orders": 31294,
+    "cancel_rate": 0.059,
+    "gmv": 15599748,
+    "aov": 498.49
+  }
+]

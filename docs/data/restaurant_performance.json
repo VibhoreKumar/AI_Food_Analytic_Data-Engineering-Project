@@ -1,0 +1,202 @@
+[
+  {
+    "restaurant_id": 437065,
+    "restaurant_name": "Theobroma",
+    "city": "Jayanagar,Bangalore",
+    "cuisine": "Desserts,Bakery",
+    "orders": 371,
+    "revenue": 1009472,
+    "avg_customer_rating": 4.26,
+    "avg_delivery_min": 31.3
+  },
+  {
+    "restaurant_id": 22964,
+    "restaurant_name": "Haiku",
+    "city": "Banjara Hills,Hyderabad",
+    "cuisine": "Japanese,Asian",
+    "orders": 447,
+    "revenue": 911168,
+    "avg_customer_rating": 4.09,
+    "avg_delivery_min": 31.6
+  },
+  {
+    "restaurant_id": 4484,
+    "restaurant_name": "Mocambo",
+    "city": "Central Kolkata,Kolkata",
+    "cuisine": "North Indian,Biryani",
+    "orders": 405,
+    "revenue": 863038,
+    "avg_customer_rating": 4.15,
+    "avg_delivery_min": 30.8
+  },
+  {
+    "restaurant_id": 16214,
+    "restaurant_name": "Chili's American Grill & Bar",
+    "city": "Jadavpur,Kolkata",
+    "cuisine": "American,Salads",
+    "orders": 445,
+    "revenue": 862511,
+    "avg_customer_rating": 4.16,
+    "avg_delivery_min": 31.8
+  },
+  {
+    "restaurant_id": 223614,
+    "restaurant_name": "Hakuna Matata",
+    "city": "Arekere,Bangalore",
+    "cuisine": "Chinese,Indian",
+    "orders": 390,
+    "revenue": 820700,
+    "avg_customer_rating": 4.19,
+    "avg_delivery_min": 31.6
+  },
+  {
+    "restaurant_id": 84365,
+    "restaurant_name": "Copperleaf Porvorim",
+    "city": "North-goa",
+    "cuisine": "Indian,Chinese",
+    "orders": 449,
+    "revenue": 783215,
+    "avg_customer_rating": 4.22,
+    "avg_delivery_min": 30.8
+  },
+  {
+    "restaurant_id": 8354,
+    "restaurant_name": "Little Italy",
+    "city": "Banashankari,Bangalore",
+    "cuisine": "Italian,Pizzas",
+    "orders": 421,
+    "revenue": 722459,
+    "avg_customer_rating": 4.26,
+    "avg_delivery_min": 30.9
+  },
+  {
+    "restaurant_id": 198307,
+    "restaurant_name": "BlueFox",
+    "city": "Kothapet & Dilsukhnagar,Hyderabad",
+    "cuisine": "Biryani,Chinese",
+    "orders": 423,
+    "revenue": 700534,
+    "avg_customer_rating": 4.1,
+    "avg_delivery_min": 31.0
+  },
+  {
+    "restaurant_id": 442050,
+    "restaurant_name": "Behrouz Biryani",
+    "city": "Allahabad",
+    "cuisine": "Biryani,Mughlai",
+    "orders": 408,
+    "revenue": 687534,
+    "avg_customer_rating": 4.15,
+    "avg_delivery_min": 30.6
+  },
+  {
+    "restaurant_id": 292634,
+    "restaurant_name": "Chapter 2",
+    "city": "South Kolkata,Kolkata",
+    "cuisine": "Continental,European",
+    "orders": 451,
+    "revenue": 680671,
+    "avg_customer_rating": 4.14,
+    "avg_delivery_min": 31.9
+  },
+  {
+    "restaurant_id": 16344,
+    "restaurant_name": "Beijing",
+    "city": "Central Kolkata,Kolkata",
+    "cuisine": "Chinese,Asian",
+    "orders": 392,
+    "revenue": 677659,
+    "avg_customer_rating": 4.08,
+    "avg_delivery_min": 31.2
+  },
+  {
+    "restaurant_id": 202889,
+    "restaurant_name": "Tung Fong",
+    "city": "Central Kolkata,Kolkata",
+    "cuisine": "Asian,Chinese",
+    "orders": 424,
+    "revenue": 669365,
+    "avg_customer_rating": 4.21,
+    "avg_delivery_min": 29.9
+  },
+  {
+    "restaurant_id": 295056,
+    "restaurant_name": "Exotica",
+    "city": "Madhapur,Hyderabad",
+    "cuisine": "Chinese,North Indian",
+    "orders": 389,
+    "revenue": 667038,
+    "avg_customer_rating": 4.13,
+    "avg_delivery_min": 30.9
+  },
+  {
+    "restaurant_id": 16311,
+    "restaurant_name": "The Cascade",
+    "city": "Medavakkam,Chennai",
+    "cuisine": "Chinese,Thai",
+    "orders": 420,
+    "revenue": 658028,
+    "avg_customer_rating": 4.24,
+    "avg_delivery_min": 30.8
+  },
+  {
+    "restaurant_id": 4955,
+    "restaurant_name": "Persian Darbar",
+    "city": "Bandra West,Mumbai",
+    "cuisine": "North Indian,Chinese",
+    "orders": 401,
+    "revenue": 656696,
+    "avg_customer_rating": 4.13,
+    "avg_delivery_min": 31.1
+  },
+  {
+    "restaurant_id": 4813,
+    "restaurant_name": "Mainland China",
+    "city": "Madhapur,Hyderabad",
+    "cuisine": "Chinese,Oriental",
+    "orders": 428,
+    "revenue": 643750,
+    "avg_customer_rating": 4.13,
+    "avg_delivery_min": 31.4
+  },
+  {
+    "restaurant_id": 323233,
+    "restaurant_name": "Theth Masala",
+    "city": "Lingampally & Nalagandla,Hyderabad",
+    "cuisine": "North Indian,Chinese",
+    "orders": 412,
+    "revenue": 633605,
+    "avg_customer_rating": 4.14,
+    "avg_delivery_min": 31.0
+  },
+  {
+    "restaurant_id": 55192,
+    "restaurant_name": "Kareem's - Park Street",
+    "city": "Central Kolkata,Kolkata",
+    "cuisine": "Biryani,North Indian",
+    "orders": 408,
+    "revenue": 622896,
+    "avg_customer_rating": 4.2,
+    "avg_delivery_min": 30.3
+  },
+  {
+    "restaurant_id": 253605,
+    "restaurant_name": "Toscano",
+    "city": "Nungambakkam,Chennai",
+    "cuisine": "Italian,Pizzas",
+    "orders": 410,
+    "revenue": 621488,
+    "avg_customer_rating": 4.2,
+    "avg_delivery_min": 30.5
+  },
+  {
+    "restaurant_id": 4619,
+    "restaurant_name": "Oudh 1590 Salt Lake",
+    "city": "Salt Lake,Kolkata",
+    "cuisine": "Biryani,Mughlai",
+    "orders": 432,
+    "revenue": 608066,
+    "avg_customer_rating": 4.14,
+    "avg_delivery_min": 31.1
+  }
+]

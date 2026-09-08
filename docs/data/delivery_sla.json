@@ -1,0 +1,2522 @@
+[
+  {
+    "city": "Ahmedabad",
+    "order_hour": 0,
+    "delivered_orders": 805,
+    "p50": 31.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 1,
+    "delivered_orders": 395,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 2,
+    "delivered_orders": 218,
+    "p50": 32.0,
+    "p90": 47.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 3,
+    "delivered_orders": 203,
+    "p50": 29.0,
+    "p90": 44.8
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 4,
+    "delivered_orders": 204,
+    "p50": 31.5,
+    "p90": 47.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 5,
+    "delivered_orders": 385,
+    "p50": 29.0,
+    "p90": 45.6
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 6,
+    "delivered_orders": 1246,
+    "p50": 30.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 7,
+    "delivered_orders": 3119,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 8,
+    "delivered_orders": 4875,
+    "p50": 31.0,
+    "p90": 45.6
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 9,
+    "delivered_orders": 5656,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 10,
+    "delivered_orders": 6464,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 11,
+    "delivered_orders": 8962,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 12,
+    "delivered_orders": 18299,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 13,
+    "delivered_orders": 19651,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 14,
+    "delivered_orders": 12896,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 15,
+    "delivered_orders": 7207,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 16,
+    "delivered_orders": 6546,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 17,
+    "delivered_orders": 8950,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 18,
+    "delivered_orders": 15500,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 19,
+    "delivered_orders": 22217,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 20,
+    "delivered_orders": 23370,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 21,
+    "delivered_orders": 18217,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 22,
+    "delivered_orders": 9963,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Ahmedabad",
+    "order_hour": 23,
+    "delivered_orders": 4106,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 0,
+    "delivered_orders": 4011,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 1,
+    "delivered_orders": 1995,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 2,
+    "delivered_orders": 990,
+    "p50": 30.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 3,
+    "delivered_orders": 1035,
+    "p50": 32.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 4,
+    "delivered_orders": 1012,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 5,
+    "delivered_orders": 1980,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 6,
+    "delivered_orders": 6383,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 7,
+    "delivered_orders": 16286,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 8,
+    "delivered_orders": 24834,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 9,
+    "delivered_orders": 28908,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 10,
+    "delivered_orders": 32759,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 11,
+    "delivered_orders": 45145,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 12,
+    "delivered_orders": 92218,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 13,
+    "delivered_orders": 98925,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 14,
+    "delivered_orders": 65417,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 15,
+    "delivered_orders": 36846,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 16,
+    "delivered_orders": 33021,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 17,
+    "delivered_orders": 45511,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 18,
+    "delivered_orders": 78292,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 19,
+    "delivered_orders": 112967,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 20,
+    "delivered_orders": 119011,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 21,
+    "delivered_orders": 92441,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 22,
+    "delivered_orders": 51590,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bangalore",
+    "order_hour": 23,
+    "delivered_orders": 20697,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 0,
+    "delivered_orders": 472,
+    "p50": 30.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 1,
+    "delivered_orders": 215,
+    "p50": 32.0,
+    "p90": 47.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 2,
+    "delivered_orders": 116,
+    "p50": 32.0,
+    "p90": 43.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 3,
+    "delivered_orders": 120,
+    "p50": 32.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 4,
+    "delivered_orders": 112,
+    "p50": 30.0,
+    "p90": 44.9
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 5,
+    "delivered_orders": 226,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 6,
+    "delivered_orders": 685,
+    "p50": 30.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 7,
+    "delivered_orders": 1851,
+    "p50": 32.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 8,
+    "delivered_orders": 2845,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 9,
+    "delivered_orders": 3271,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 10,
+    "delivered_orders": 3665,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 11,
+    "delivered_orders": 5053,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 12,
+    "delivered_orders": 10385,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 13,
+    "delivered_orders": 10930,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 14,
+    "delivered_orders": 7264,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 15,
+    "delivered_orders": 4142,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 16,
+    "delivered_orders": 3649,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 17,
+    "delivered_orders": 5113,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 18,
+    "delivered_orders": 8578,
+    "p50": 31.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 19,
+    "delivered_orders": 12554,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 20,
+    "delivered_orders": 13167,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 21,
+    "delivered_orders": 10160,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 22,
+    "delivered_orders": 5789,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Bikaner",
+    "order_hour": 23,
+    "delivered_orders": 2260,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 0,
+    "delivered_orders": 748,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 1,
+    "delivered_orders": 421,
+    "p50": 31.0,
+    "p90": 47.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 2,
+    "delivered_orders": 184,
+    "p50": 33.0,
+    "p90": 44.7
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 3,
+    "delivered_orders": 181,
+    "p50": 31.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 4,
+    "delivered_orders": 186,
+    "p50": 32.0,
+    "p90": 42.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 5,
+    "delivered_orders": 403,
+    "p50": 32.0,
+    "p90": 45.8
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 6,
+    "delivered_orders": 1248,
+    "p50": 32.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 7,
+    "delivered_orders": 3164,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 8,
+    "delivered_orders": 4808,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 9,
+    "delivered_orders": 5633,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 10,
+    "delivered_orders": 6369,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 11,
+    "delivered_orders": 8863,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 12,
+    "delivered_orders": 17920,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 13,
+    "delivered_orders": 19123,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 14,
+    "delivered_orders": 12641,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 15,
+    "delivered_orders": 7022,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 16,
+    "delivered_orders": 6542,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 17,
+    "delivered_orders": 8808,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 18,
+    "delivered_orders": 15331,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 19,
+    "delivered_orders": 22113,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 20,
+    "delivered_orders": 23505,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 21,
+    "delivered_orders": 17756,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 22,
+    "delivered_orders": 10104,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chandigarh",
+    "order_hour": 23,
+    "delivered_orders": 4120,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 0,
+    "delivered_orders": 2937,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 1,
+    "delivered_orders": 1435,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 2,
+    "delivered_orders": 748,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 3,
+    "delivered_orders": 690,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 4,
+    "delivered_orders": 739,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 5,
+    "delivered_orders": 1448,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 6,
+    "delivered_orders": 4417,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 7,
+    "delivered_orders": 11519,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 8,
+    "delivered_orders": 17434,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 9,
+    "delivered_orders": 20204,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 10,
+    "delivered_orders": 22994,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 11,
+    "delivered_orders": 31765,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 12,
+    "delivered_orders": 64794,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 13,
+    "delivered_orders": 69250,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 14,
+    "delivered_orders": 46346,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 15,
+    "delivered_orders": 25951,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 16,
+    "delivered_orders": 23217,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 17,
+    "delivered_orders": 31974,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 18,
+    "delivered_orders": 54970,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 19,
+    "delivered_orders": 79649,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 20,
+    "delivered_orders": 84020,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 21,
+    "delivered_orders": 65091,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 22,
+    "delivered_orders": 36316,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Chennai",
+    "order_hour": 23,
+    "delivered_orders": 14478,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 0,
+    "delivered_orders": 381,
+    "p50": 32.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 1,
+    "delivered_orders": 185,
+    "p50": 31.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 2,
+    "delivered_orders": 75,
+    "p50": 33.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 3,
+    "delivered_orders": 79,
+    "p50": 32.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 4,
+    "delivered_orders": 81,
+    "p50": 31.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 5,
+    "delivered_orders": 161,
+    "p50": 32.0,
+    "p90": 47.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 6,
+    "delivered_orders": 582,
+    "p50": 30.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 7,
+    "delivered_orders": 1467,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 8,
+    "delivered_orders": 2200,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 9,
+    "delivered_orders": 2608,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 10,
+    "delivered_orders": 3008,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 11,
+    "delivered_orders": 4075,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 12,
+    "delivered_orders": 8305,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 13,
+    "delivered_orders": 8786,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 14,
+    "delivered_orders": 6005,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 15,
+    "delivered_orders": 3313,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 16,
+    "delivered_orders": 3045,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 17,
+    "delivered_orders": 4055,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 18,
+    "delivered_orders": 7037,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 19,
+    "delivered_orders": 10214,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 20,
+    "delivered_orders": 10764,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 21,
+    "delivered_orders": 8345,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 22,
+    "delivered_orders": 4510,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Coimbatore",
+    "order_hour": 23,
+    "delivered_orders": 1768,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 0,
+    "delivered_orders": 3131,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 1,
+    "delivered_orders": 1577,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 2,
+    "delivered_orders": 779,
+    "p50": 30.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 3,
+    "delivered_orders": 816,
+    "p50": 31.0,
+    "p90": 45.5
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 4,
+    "delivered_orders": 771,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 5,
+    "delivered_orders": 1570,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 6,
+    "delivered_orders": 4794,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 7,
+    "delivered_orders": 12802,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 8,
+    "delivered_orders": 19085,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 9,
+    "delivered_orders": 22199,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 10,
+    "delivered_orders": 25301,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 11,
+    "delivered_orders": 34809,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 12,
+    "delivered_orders": 70897,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 13,
+    "delivered_orders": 75739,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 14,
+    "delivered_orders": 50682,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 15,
+    "delivered_orders": 28544,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 16,
+    "delivered_orders": 25392,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 17,
+    "delivered_orders": 34758,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 18,
+    "delivered_orders": 59940,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 19,
+    "delivered_orders": 86749,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 20,
+    "delivered_orders": 91320,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 21,
+    "delivered_orders": 70962,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 22,
+    "delivered_orders": 39711,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Delhi",
+    "order_hour": 23,
+    "delivered_orders": 15956,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 0,
+    "delivered_orders": 537,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 1,
+    "delivered_orders": 274,
+    "p50": 31.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 2,
+    "delivered_orders": 156,
+    "p50": 32.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 3,
+    "delivered_orders": 150,
+    "p50": 27.5,
+    "p90": 43.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 4,
+    "delivered_orders": 134,
+    "p50": 31.5,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 5,
+    "delivered_orders": 279,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 6,
+    "delivered_orders": 786,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 7,
+    "delivered_orders": 2218,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 8,
+    "delivered_orders": 3424,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 9,
+    "delivered_orders": 3890,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 10,
+    "delivered_orders": 4467,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 11,
+    "delivered_orders": 6203,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 12,
+    "delivered_orders": 12493,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 13,
+    "delivered_orders": 13430,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 14,
+    "delivered_orders": 8955,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 15,
+    "delivered_orders": 5099,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 16,
+    "delivered_orders": 4385,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 17,
+    "delivered_orders": 6159,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 18,
+    "delivered_orders": 10518,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 19,
+    "delivered_orders": 15359,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 20,
+    "delivered_orders": 16155,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 21,
+    "delivered_orders": 12437,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 22,
+    "delivered_orders": 6939,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Gurgaon",
+    "order_hour": 23,
+    "delivered_orders": 2804,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 0,
+    "delivered_orders": 2630,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 1,
+    "delivered_orders": 1426,
+    "p50": 30.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 2,
+    "delivered_orders": 729,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 3,
+    "delivered_orders": 623,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 4,
+    "delivered_orders": 648,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 5,
+    "delivered_orders": 1282,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 6,
+    "delivered_orders": 4002,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 7,
+    "delivered_orders": 10996,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 8,
+    "delivered_orders": 16349,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 9,
+    "delivered_orders": 19228,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 10,
+    "delivered_orders": 21737,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 11,
+    "delivered_orders": 29972,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 12,
+    "delivered_orders": 61456,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 13,
+    "delivered_orders": 65076,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 14,
+    "delivered_orders": 43245,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 15,
+    "delivered_orders": 24330,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 16,
+    "delivered_orders": 22112,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 17,
+    "delivered_orders": 30148,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 18,
+    "delivered_orders": 51352,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 19,
+    "delivered_orders": 74959,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 20,
+    "delivered_orders": 78958,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 21,
+    "delivered_orders": 60755,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 22,
+    "delivered_orders": 33606,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Hyderabad",
+    "order_hour": 23,
+    "delivered_orders": 13521,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 0,
+    "delivered_orders": 362,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 1,
+    "delivered_orders": 168,
+    "p50": 30.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 2,
+    "delivered_orders": 88,
+    "p50": 31.5,
+    "p90": 44.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 3,
+    "delivered_orders": 80,
+    "p50": 29.5,
+    "p90": 43.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 4,
+    "delivered_orders": 97,
+    "p50": 30.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 5,
+    "delivered_orders": 166,
+    "p50": 29.5,
+    "p90": 43.5
+  },
+  {
+    "city": "Indore",
+    "order_hour": 6,
+    "delivered_orders": 521,
+    "p50": 31.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 7,
+    "delivered_orders": 1545,
+    "p50": 31.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 8,
+    "delivered_orders": 2105,
+    "p50": 32.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 9,
+    "delivered_orders": 2534,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 10,
+    "delivered_orders": 2889,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 11,
+    "delivered_orders": 4111,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 12,
+    "delivered_orders": 8294,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 13,
+    "delivered_orders": 8807,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 14,
+    "delivered_orders": 5728,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 15,
+    "delivered_orders": 3220,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 16,
+    "delivered_orders": 2849,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 17,
+    "delivered_orders": 3971,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 18,
+    "delivered_orders": 6973,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 19,
+    "delivered_orders": 9926,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 20,
+    "delivered_orders": 10578,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 21,
+    "delivered_orders": 8346,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 22,
+    "delivered_orders": 4656,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Indore",
+    "order_hour": 23,
+    "delivered_orders": 1869,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 0,
+    "delivered_orders": 1999,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 1,
+    "delivered_orders": 1070,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 2,
+    "delivered_orders": 509,
+    "p50": 31.0,
+    "p90": 45.2
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 3,
+    "delivered_orders": 527,
+    "p50": 31.0,
+    "p90": 44.4
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 4,
+    "delivered_orders": 557,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 5,
+    "delivered_orders": 1002,
+    "p50": 32.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 6,
+    "delivered_orders": 3172,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 7,
+    "delivered_orders": 8422,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 8,
+    "delivered_orders": 12391,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 9,
+    "delivered_orders": 14456,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 10,
+    "delivered_orders": 16575,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 11,
+    "delivered_orders": 22794,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 12,
+    "delivered_orders": 46984,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 13,
+    "delivered_orders": 49923,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 14,
+    "delivered_orders": 33339,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 15,
+    "delivered_orders": 18802,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 16,
+    "delivered_orders": 16726,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 17,
+    "delivered_orders": 22726,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 18,
+    "delivered_orders": 39425,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 19,
+    "delivered_orders": 57160,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 20,
+    "delivered_orders": 60471,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 21,
+    "delivered_orders": 46918,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 22,
+    "delivered_orders": 25991,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Kolkata",
+    "order_hour": 23,
+    "delivered_orders": 10327,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 0,
+    "delivered_orders": 606,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 1,
+    "delivered_orders": 297,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 2,
+    "delivered_orders": 148,
+    "p50": 32.0,
+    "p90": 43.3
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 3,
+    "delivered_orders": 133,
+    "p50": 30.0,
+    "p90": 47.8
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 4,
+    "delivered_orders": 147,
+    "p50": 29.0,
+    "p90": 45.4
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 5,
+    "delivered_orders": 308,
+    "p50": 32.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 6,
+    "delivered_orders": 943,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 7,
+    "delivered_orders": 2565,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 8,
+    "delivered_orders": 3689,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 9,
+    "delivered_orders": 4330,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 10,
+    "delivered_orders": 4879,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 11,
+    "delivered_orders": 6737,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 12,
+    "delivered_orders": 14074,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 13,
+    "delivered_orders": 14750,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 14,
+    "delivered_orders": 9727,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 15,
+    "delivered_orders": 5520,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 16,
+    "delivered_orders": 4986,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 17,
+    "delivered_orders": 6805,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 18,
+    "delivered_orders": 11821,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 19,
+    "delivered_orders": 17119,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 20,
+    "delivered_orders": 18169,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 21,
+    "delivered_orders": 13874,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 22,
+    "delivered_orders": 7672,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Lucknow",
+    "order_hour": 23,
+    "delivered_orders": 3060,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 0,
+    "delivered_orders": 1385,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 1,
+    "delivered_orders": 712,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 2,
+    "delivered_orders": 381,
+    "p50": 31.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 3,
+    "delivered_orders": 329,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 4,
+    "delivered_orders": 328,
+    "p50": 32.5,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 5,
+    "delivered_orders": 729,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 6,
+    "delivered_orders": 2175,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 7,
+    "delivered_orders": 5727,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 8,
+    "delivered_orders": 8676,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 9,
+    "delivered_orders": 9931,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 10,
+    "delivered_orders": 11456,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 11,
+    "delivered_orders": 15970,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 12,
+    "delivered_orders": 31868,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 13,
+    "delivered_orders": 34412,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 14,
+    "delivered_orders": 22850,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 15,
+    "delivered_orders": 12776,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 16,
+    "delivered_orders": 11431,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 17,
+    "delivered_orders": 15877,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 18,
+    "delivered_orders": 27337,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 19,
+    "delivered_orders": 39369,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 20,
+    "delivered_orders": 41568,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 21,
+    "delivered_orders": 32297,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 22,
+    "delivered_orders": 17919,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Mumbai",
+    "order_hour": 23,
+    "delivered_orders": 7309,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 0,
+    "delivered_orders": 409,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 1,
+    "delivered_orders": 206,
+    "p50": 31.0,
+    "p90": 44.5
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 2,
+    "delivered_orders": 111,
+    "p50": 30.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 3,
+    "delivered_orders": 76,
+    "p50": 33.5,
+    "p90": 43.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 4,
+    "delivered_orders": 108,
+    "p50": 31.0,
+    "p90": 43.3
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 5,
+    "delivered_orders": 187,
+    "p50": 32.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 6,
+    "delivered_orders": 625,
+    "p50": 30.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 7,
+    "delivered_orders": 1582,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 8,
+    "delivered_orders": 2414,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 9,
+    "delivered_orders": 2741,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 10,
+    "delivered_orders": 3152,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 11,
+    "delivered_orders": 4383,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 12,
+    "delivered_orders": 8918,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 13,
+    "delivered_orders": 9604,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 14,
+    "delivered_orders": 6360,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 15,
+    "delivered_orders": 3550,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 16,
+    "delivered_orders": 3143,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 17,
+    "delivered_orders": 4419,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 18,
+    "delivered_orders": 7513,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 19,
+    "delivered_orders": 10964,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 20,
+    "delivered_orders": 11618,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 21,
+    "delivered_orders": 9121,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 22,
+    "delivered_orders": 4955,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Nagpur",
+    "order_hour": 23,
+    "delivered_orders": 1982,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 0,
+    "delivered_orders": 2697,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 1,
+    "delivered_orders": 1309,
+    "p50": 31.0,
+    "p90": 46.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 2,
+    "delivered_orders": 660,
+    "p50": 31.5,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 3,
+    "delivered_orders": 649,
+    "p50": 31.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 4,
+    "delivered_orders": 677,
+    "p50": 31.0,
+    "p90": 44.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 5,
+    "delivered_orders": 1409,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 6,
+    "delivered_orders": 4160,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 7,
+    "delivered_orders": 11172,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 8,
+    "delivered_orders": 16226,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 9,
+    "delivered_orders": 19164,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 10,
+    "delivered_orders": 21790,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 11,
+    "delivered_orders": 30024,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 12,
+    "delivered_orders": 61313,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 13,
+    "delivered_orders": 65603,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 14,
+    "delivered_orders": 43523,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 15,
+    "delivered_orders": 24488,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 16,
+    "delivered_orders": 21966,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 17,
+    "delivered_orders": 29937,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 18,
+    "delivered_orders": 51616,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 19,
+    "delivered_orders": 74932,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 20,
+    "delivered_orders": 79312,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 21,
+    "delivered_orders": 61469,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 22,
+    "delivered_orders": 33874,
+    "p50": 31.0,
+    "p90": 45.0
+  },
+  {
+    "city": "Pune",
+    "order_hour": 23,
+    "delivered_orders": 13696,
+    "p50": 31.0,
+    "p90": 45.0
+  }
+]
