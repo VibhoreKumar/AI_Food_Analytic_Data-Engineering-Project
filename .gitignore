@@ -28,7 +28,7 @@ venv/
 .DS_Store
 
 # Data files (large, not needed in git)
-data/
+/data/
 
 # Streamlit
 streamlit_app/.streamlit/secrets.toml
@@ -36,5 +36,5 @@ streamlit_app/.streamlit/secrets.toml
 # Editor/IDE
 .vscode/
 .idea/
-data/
+/data/
 Food/zomato.duckdb
